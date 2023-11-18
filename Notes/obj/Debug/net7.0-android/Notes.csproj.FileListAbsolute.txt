@@ -1,11 +1,6 @@
 C:\Users\21khz\Projects\Notes\Notes\bin\Debug\net7.0-android\Notes.runtimeconfig.json
 C:\Users\21khz\Projects\Notes\Notes\bin\Debug\net7.0-android\Notes.dll
 C:\Users\21khz\Projects\Notes\Notes\bin\Debug\net7.0-android\Notes.pdb
-C:\Users\21khz\Projects\Notes\Notes\bin\Debug\net7.0-android\com.companyname.notes.apk
-C:\Users\21khz\Projects\Notes\Notes\bin\Debug\net7.0-android\com.companyname.notes.aab
-C:\Users\21khz\Projects\Notes\Notes\bin\Debug\net7.0-android\com.companyname.notes-Signed.aab
-C:\Users\21khz\Projects\Notes\Notes\bin\Debug\net7.0-android\com.companyname.notes-Signed.apk
-C:\Users\21khz\Projects\Notes\Notes\bin\Debug\net7.0-android\com.companyname.notes-Signed.apk.idsig
 C:\Users\21khz\Projects\Notes\Notes\obj\Debug\net7.0-android\.NETCoreApp,Version=v7.0.AssemblyAttributes.cs
 C:\Users\21khz\Projects\Notes\Notes\obj\Debug\net7.0-android\build.props
 C:\Users\21khz\Projects\Notes\Notes\obj\Debug\net7.0-android\adb.props
@@ -99,10 +94,7 @@ C:\Users\21khz\Projects\Notes\Notes\obj\Debug\net7.0-android\Notes.dll
 C:\Users\21khz\Projects\Notes\Notes\obj\Debug\net7.0-android\Notes.pdb
 C:\Users\21khz\Projects\Notes\Notes\obj\Debug\net7.0-android\Notes.genruntimeconfig.cache
 C:\Users\21khz\Projects\Notes\Notes\obj\Debug\net7.0-android\Notes.runtimeconfig.json.bin
-C:\Users\21khz\Projects\Notes\Notes\obj\Debug\net7.0-android\android\bin\com.companyname.notes.apk
 C:\Users\21khz\Projects\Notes\Notes\obj\Debug\net7.0-android\android\bin\base.zip
-C:\Users\21khz\Projects\Notes\Notes\obj\Debug\net7.0-android\android\bin\com.companyname.notes.aab
-C:\Users\21khz\Projects\Notes\Notes\obj\Debug\net7.0-android\android\bin\com.companyname.notes.apks
 C:\Users\21khz\Projects\Notes\Notes\obj\Debug\net7.0-android\res\values\colors.xml
 C:\Users\21khz\Projects\Notes\Notes\obj\Debug\net7.0-android\uploadflags.txt
 C:\Users\21khz\Projects\Notes\Notes\obj\Debug\net7.0-android\resolvedassemblies.hash
@@ -926,7 +918,6 @@ C:\Users\21khz\Projects\Notes\Notes\obj\Debug\net7.0-android\android\src\mono\co
 C:\Users\21khz\Projects\Notes\Notes\obj\Debug\net7.0-android\android\src\mono\com\google\android\material\textfield\TextInputLayout_OnEndIconChangedListenerImplementor.java
 C:\Users\21khz\Projects\Notes\Notes\obj\Debug\net7.0-android\android\src\mono\MonoPackageManager_Resources.java
 C:\Users\21khz\Projects\Notes\Notes\obj\Debug\net7.0-android\android\bin\packaged_resources
-C:\Users\21khz\Projects\Notes\Notes\obj\Debug\net7.0-android\android\src\com\companyname\notes\R.java
 C:\Users\21khz\Projects\Notes\Notes\obj\Debug\net7.0-android\android\bin\classes.dex
 C:\Users\21khz\Projects\Notes\Notes\obj\Debug\net7.0-android\android\bin\classes2.dex
 C:\Users\21khz\Projects\Notes\Notes\obj\Debug\net7.0-android\stamp\_CleanIntermediateIfNeeded.stamp
@@ -962,6 +953,15 @@ C:\Users\21khz\Projects\Notes\Notes\obj\Debug\net7.0-android\android\environment
 C:\Users\21khz\Projects\Notes\Notes\obj\Debug\net7.0-android\android\compressed_assemblies.armeabi-v7a.o
 C:\Users\21khz\Projects\Notes\Notes\obj\Debug\net7.0-android\android\jni_remap.armeabi-v7a.o
 C:\Users\21khz\Projects\Notes\Notes\obj\Debug\net7.0-android\app_shared_libraries\armeabi-v7a\libxamarin-app.so
+c:\Users\21khz\Projects\Notes\Notes\bin\Debug\net7.0-android\com.Cozique.notes.apk
+c:\Users\21khz\Projects\Notes\Notes\bin\Debug\net7.0-android\com.Cozique.notes.aab
+c:\Users\21khz\Projects\Notes\Notes\bin\Debug\net7.0-android\com.Cozique.notes-Signed.aab
+c:\Users\21khz\Projects\Notes\Notes\bin\Debug\net7.0-android\com.Cozique.notes-Signed.apk
+c:\Users\21khz\Projects\Notes\Notes\bin\Debug\net7.0-android\com.Cozique.notes-Signed.apk.idsig
+c:\Users\21khz\Projects\Notes\Notes\obj\Debug\net7.0-android\android\bin\com.Cozique.notes.apk
+c:\Users\21khz\Projects\Notes\Notes\obj\Debug\net7.0-android\android\bin\com.Cozique.notes.aab
+c:\Users\21khz\Projects\Notes\Notes\obj\Debug\net7.0-android\android\bin\com.Cozique.notes.apks
+c:\Users\21khz\Projects\Notes\Notes\obj\Debug\net7.0-android\android\src\com\cozique\notes\R.java
 C:\Users\21khz\Projects\Notes\Notes\obj\Debug\net7.0-android\android\assets\mscorlib.dll
 C:\Users\21khz\Projects\Notes\Notes\obj\Debug\net7.0-android\android\assets\System.Collections.Concurrent.dll
 C:\Users\21khz\Projects\Notes\Notes\obj\Debug\net7.0-android\android\assets\System.Data.Common.dll

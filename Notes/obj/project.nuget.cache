@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Dozt/DsMguX1kkNux21JpS0WhFGOI7eyVvEkPe+zlVoE8iwxH7hz+oYZgRrV4swi8JoVRLu/IxueRirvMg1M7A==",
+  "dgSpecHash": "eFJc/DK7fMc7xhdyd1/lhsg8KmLuq/6CyL5+Iu3OERe1dZsQXnjm9eceF1TuSes08yzQP/zYAaBb9voP8O05DQ==",
   "success": true,
-  "projectFilePath": "c:\\Users\\21khz\\Projects\\Notes\\Notes\\Notes.csproj",
+  "projectFilePath": "C:\\Users\\21khz\\Projects\\Notes\\Notes\\Notes.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\21khz\\.nuget\\packages\\chartboost.csharp.mediation.unity\\4.7.0\\chartboost.csharp.mediation.unity.4.7.0.nupkg.sha512",
     "C:\\Users\\21khz\\.nuget\\packages\\googlegson\\2.9.1.1\\googlegson.2.9.1.1.nupkg.sha512",
@@ -101,10 +101,10 @@
     "C:\\Users\\21khz\\.nuget\\packages\\xamarin.kotlin.stdlib.jdk8\\1.7.20.1\\xamarin.kotlin.stdlib.jdk8.1.7.20.1.nupkg.sha512",
     "C:\\Users\\21khz\\.nuget\\packages\\xamarin.kotlinx.coroutines.android\\1.6.4.1\\xamarin.kotlinx.coroutines.android.1.6.4.1.nupkg.sha512",
     "C:\\Users\\21khz\\.nuget\\packages\\xamarin.kotlinx.coroutines.core.jvm\\1.6.4.1\\xamarin.kotlinx.coroutines.core.jvm.1.6.4.1.nupkg.sha512",
-    "C:\\Users\\21khz\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\7.0.13\\microsoft.aspnetcore.app.runtime.win-x64.7.0.13.nupkg.sha512",
-    "C:\\Users\\21khz\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\7.0.13\\microsoft.netcore.app.runtime.win-x64.7.0.13.nupkg.sha512",
     "C:\\Users\\21khz\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.19041.29\\microsoft.windows.sdk.net.ref.10.0.19041.29.nupkg.sha512",
-    "C:\\Users\\21khz\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\7.0.13\\microsoft.windowsdesktop.app.runtime.win-x64.7.0.13.nupkg.sha512"
+    "C:\\Users\\21khz\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\7.0.13\\microsoft.aspnetcore.app.runtime.win-x64.7.0.13.nupkg.sha512",
+    "C:\\Users\\21khz\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\7.0.13\\microsoft.windowsdesktop.app.runtime.win-x64.7.0.13.nupkg.sha512",
+    "C:\\Users\\21khz\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\7.0.13\\microsoft.netcore.app.runtime.win-x64.7.0.13.nupkg.sha512"
   ],
   "logs": []
 }
