@@ -1,8 +1,8 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
-		<TargetFrameworks>net7.0-android;net7.0-ios;net7.0-maccatalyst</TargetFrameworks>
-		<TargetFrameworks Condition="$([MSBuild]::IsOSPlatform('windows'))">$(TargetFrameworks);net7.0-windows10.0.19041.0</TargetFrameworks>
+		<TargetFrameworks>net6.0-android;net6.0-ios;net6.0-maccatalyst</TargetFrameworks>
+		<TargetFrameworks Condition="$([MSBuild]::IsOSPlatform('windows'))">$(TargetFrameworks);net6.0-windows10.0.19041.0</TargetFrameworks>
 		<!-- Uncomment to also build the tizen app. You will need to install tizen by following this: https://github.com/Samsung/Tizen.NET -->
 		<!-- <TargetFrameworks>$(TargetFrameworks);net7.0-tizen</TargetFrameworks> -->
 		<OutputType>Exe</OutputType>
@@ -28,6 +28,10 @@
 		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">10.0.17763.0</SupportedOSPlatformVersion>
 		<TargetPlatformMinVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">10.0.17763.0</TargetPlatformMinVersion>
 		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'tizen'">6.5</SupportedOSPlatformVersion>
+		
+		<!-- Define the version of Google Play Services you want to use -->
+		<GooglePlayServicesVersion>118.2.0.4</GooglePlayServicesVersion>
+
 	</PropertyGroup>
 
 	<ItemGroup>
@@ -49,8 +53,18 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<PackageReference Include="Chartboost.CSharp.Mediation.Unity" Version="4.7.0" />
+	
+		<!-- AndroidManifest.xml configurations -->
+		<AndroidManifest Include="Properties\AndroidManifest.xml" />
+  
+		<!--Dependencies -->
+		<AndroidPackageReference Include="com.chartboost:chartboost-sdk:9.5.0" Version="9.5.0" />
+		
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="7.0.0" />
+		
+		<PackageReference Include="Xamarin.GooglePlayServices.Base" Version="$(GooglePlayServicesVersion)" />
+		<PackageReference Include="Xamarin.GooglePlayServices.Ads.Identifier" Version="118.0.1.7" />
+ 
 	</ItemGroup>
 
 	<ItemGroup>
@@ -63,6 +77,10 @@
 	  <MauiXaml Update="Views\NotePage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	</ItemGroup>
+	
+	<ItemGroup>
+		<AndroidResource Include="Resources\values\google_maps_api.xml" />
 	</ItemGroup>
 
 </Project>
