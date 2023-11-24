@@ -49,8 +49,13 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<PackageReference Include="Chartboost.CSharp.Mediation.Unity" Version="4.7.0" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="7.0.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Reference Include="IronSource-Android_v7.3.0.1">
+	    <HintPath>..\..\..\..\Downloads\IronSource-Android_v7.3.0.1.dll</HintPath>
+	  </Reference>
 	</ItemGroup>
 
 	<ItemGroup>
@@ -63,6 +68,15 @@
 	  <MauiXaml Update="Views\NotePage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	</ItemGroup>
+
+	<ItemGroup Condition="'$(TargetFramework)' == 'net7.0-android'">
+	  <PackageReference Include="IronSourceAndroidSDK">
+	    <Version>7.3.0.1</Version>
+	  </PackageReference>
+	  <PackageReference Include="Xamarin.Kotlin.StdLib">
+	    <Version>1.9.20</Version>
+	  </PackageReference>
 	</ItemGroup>
 
 </Project>

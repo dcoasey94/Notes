@@ -2,9 +2,6 @@
   "version": 3,
   "targets": {
     "net7.0-android33.0": {
-      "Chartboost.CSharp.Mediation.Unity/4.7.0": {
-        "type": "package"
-      },
       "GoogleGson/2.9.1.1": {
         "type": "package",
         "compile": {
@@ -16,6 +13,15 @@
           "lib/net6.0-android31.0/GoogleGson.dll": {
             "related": ".aar;.xml"
           }
+        }
+      },
+      "IronSourceAndroidSDK/7.3.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/monoandroid90/IronSource-Android_v7.3.0.1.dll": {}
+        },
+        "runtime": {
+          "lib/monoandroid90/IronSource-Android_v7.3.0.1.dll": {}
         }
       },
       "Microsoft.Extensions.Configuration/7.0.0": {
@@ -187,7 +193,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Maui.Graphics/7.0.96": {
+      "Microsoft.Maui.Graphics/7.0.101": {
         "type": "package",
         "compile": {
           "lib/net7.0-android33.0/Microsoft.Maui.Graphics.dll": {
@@ -198,6 +204,18 @@
           "lib/net7.0-android33.0/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
+        }
+      },
+      "Microsoft.NET.ILLink.Analyzers/7.0.100-1.23211.1": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.NET.ILLink.Analyzers.props": {}
+        }
+      },
+      "Microsoft.NET.ILLink.Tasks/7.0.100-1.23211.1": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
       "Xamarin.Android.Glide/4.13.2.2": {
@@ -1797,7 +1815,7 @@
           "buildTransitive/net6.0-android31.0/Xamarin.Google.Guava.ListenableFuture.targets": {}
         }
       },
-      "Xamarin.Jetbrains.Annotations/23.0.0.5": {
+      "Xamarin.Jetbrains.Annotations/24.0.1.5": {
         "type": "package",
         "compile": {
           "lib/net6.0-android31.0/Xamarin.Jetbrains.Annotations.dll": {
@@ -1813,11 +1831,10 @@
           "buildTransitive/net6.0-android31.0/Xamarin.Jetbrains.Annotations.targets": {}
         }
       },
-      "Xamarin.Kotlin.StdLib/1.7.20.1": {
+      "Xamarin.Kotlin.StdLib/1.9.20": {
         "type": "package",
         "dependencies": {
-          "Xamarin.Jetbrains.Annotations": "23.0.0.5",
-          "Xamarin.Kotlin.StdLib.Common": "1.7.20.1"
+          "Xamarin.Jetbrains.Annotations": "24.0.1.5"
         },
         "compile": {
           "lib/net6.0-android31.0/Xamarin.Kotlin.StdLib.dll": {
@@ -1930,9 +1947,6 @@
       }
     },
     "net7.0-android33.0/android-arm": {
-      "Chartboost.CSharp.Mediation.Unity/4.7.0": {
-        "type": "package"
-      },
       "GoogleGson/2.9.1.1": {
         "type": "package",
         "compile": {
@@ -1944,6 +1958,15 @@
           "lib/net6.0-android31.0/GoogleGson.dll": {
             "related": ".aar;.xml"
           }
+        }
+      },
+      "IronSourceAndroidSDK/7.3.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/monoandroid90/IronSource-Android_v7.3.0.1.dll": {}
+        },
+        "runtime": {
+          "lib/monoandroid90/IronSource-Android_v7.3.0.1.dll": {}
         }
       },
       "Microsoft.Extensions.Configuration/7.0.0": {
@@ -2115,7 +2138,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Maui.Graphics/7.0.96": {
+      "Microsoft.Maui.Graphics/7.0.101": {
         "type": "package",
         "compile": {
           "lib/net7.0-android33.0/Microsoft.Maui.Graphics.dll": {
@@ -2126,6 +2149,18 @@
           "lib/net7.0-android33.0/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
+        }
+      },
+      "Microsoft.NET.ILLink.Analyzers/7.0.100-1.23211.1": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.NET.ILLink.Analyzers.props": {}
+        }
+      },
+      "Microsoft.NET.ILLink.Tasks/7.0.100-1.23211.1": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
       "Xamarin.Android.Glide/4.13.2.2": {
@@ -3725,7 +3760,7 @@
           "buildTransitive/net6.0-android31.0/Xamarin.Google.Guava.ListenableFuture.targets": {}
         }
       },
-      "Xamarin.Jetbrains.Annotations/23.0.0.5": {
+      "Xamarin.Jetbrains.Annotations/24.0.1.5": {
         "type": "package",
         "compile": {
           "lib/net6.0-android31.0/Xamarin.Jetbrains.Annotations.dll": {
@@ -3741,11 +3776,10 @@
           "buildTransitive/net6.0-android31.0/Xamarin.Jetbrains.Annotations.targets": {}
         }
       },
-      "Xamarin.Kotlin.StdLib/1.7.20.1": {
+      "Xamarin.Kotlin.StdLib/1.9.20": {
         "type": "package",
         "dependencies": {
-          "Xamarin.Jetbrains.Annotations": "23.0.0.5",
-          "Xamarin.Kotlin.StdLib.Common": "1.7.20.1"
+          "Xamarin.Jetbrains.Annotations": "24.0.1.5"
         },
         "compile": {
           "lib/net6.0-android31.0/Xamarin.Kotlin.StdLib.dll": {
@@ -3858,9 +3892,6 @@
       }
     },
     "net7.0-android33.0/android-arm64": {
-      "Chartboost.CSharp.Mediation.Unity/4.7.0": {
-        "type": "package"
-      },
       "GoogleGson/2.9.1.1": {
         "type": "package",
         "compile": {
@@ -3872,6 +3903,15 @@
           "lib/net6.0-android31.0/GoogleGson.dll": {
             "related": ".aar;.xml"
           }
+        }
+      },
+      "IronSourceAndroidSDK/7.3.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/monoandroid90/IronSource-Android_v7.3.0.1.dll": {}
+        },
+        "runtime": {
+          "lib/monoandroid90/IronSource-Android_v7.3.0.1.dll": {}
         }
       },
       "Microsoft.Extensions.Configuration/7.0.0": {
@@ -4043,7 +4083,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Maui.Graphics/7.0.96": {
+      "Microsoft.Maui.Graphics/7.0.101": {
         "type": "package",
         "compile": {
           "lib/net7.0-android33.0/Microsoft.Maui.Graphics.dll": {
@@ -4054,6 +4094,18 @@
           "lib/net7.0-android33.0/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
+        }
+      },
+      "Microsoft.NET.ILLink.Analyzers/7.0.100-1.23211.1": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.NET.ILLink.Analyzers.props": {}
+        }
+      },
+      "Microsoft.NET.ILLink.Tasks/7.0.100-1.23211.1": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
       "Xamarin.Android.Glide/4.13.2.2": {
@@ -5653,7 +5705,7 @@
           "buildTransitive/net6.0-android31.0/Xamarin.Google.Guava.ListenableFuture.targets": {}
         }
       },
-      "Xamarin.Jetbrains.Annotations/23.0.0.5": {
+      "Xamarin.Jetbrains.Annotations/24.0.1.5": {
         "type": "package",
         "compile": {
           "lib/net6.0-android31.0/Xamarin.Jetbrains.Annotations.dll": {
@@ -5669,11 +5721,10 @@
           "buildTransitive/net6.0-android31.0/Xamarin.Jetbrains.Annotations.targets": {}
         }
       },
-      "Xamarin.Kotlin.StdLib/1.7.20.1": {
+      "Xamarin.Kotlin.StdLib/1.9.20": {
         "type": "package",
         "dependencies": {
-          "Xamarin.Jetbrains.Annotations": "23.0.0.5",
-          "Xamarin.Kotlin.StdLib.Common": "1.7.20.1"
+          "Xamarin.Jetbrains.Annotations": "24.0.1.5"
         },
         "compile": {
           "lib/net6.0-android31.0/Xamarin.Kotlin.StdLib.dll": {
@@ -5786,9 +5837,6 @@
       }
     },
     "net7.0-android33.0/android-x64": {
-      "Chartboost.CSharp.Mediation.Unity/4.7.0": {
-        "type": "package"
-      },
       "GoogleGson/2.9.1.1": {
         "type": "package",
         "compile": {
@@ -5800,6 +5848,15 @@
           "lib/net6.0-android31.0/GoogleGson.dll": {
             "related": ".aar;.xml"
           }
+        }
+      },
+      "IronSourceAndroidSDK/7.3.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/monoandroid90/IronSource-Android_v7.3.0.1.dll": {}
+        },
+        "runtime": {
+          "lib/monoandroid90/IronSource-Android_v7.3.0.1.dll": {}
         }
       },
       "Microsoft.Extensions.Configuration/7.0.0": {
@@ -5971,7 +6028,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Maui.Graphics/7.0.96": {
+      "Microsoft.Maui.Graphics/7.0.101": {
         "type": "package",
         "compile": {
           "lib/net7.0-android33.0/Microsoft.Maui.Graphics.dll": {
@@ -5982,6 +6039,18 @@
           "lib/net7.0-android33.0/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
+        }
+      },
+      "Microsoft.NET.ILLink.Analyzers/7.0.100-1.23211.1": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.NET.ILLink.Analyzers.props": {}
+        }
+      },
+      "Microsoft.NET.ILLink.Tasks/7.0.100-1.23211.1": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
       "Xamarin.Android.Glide/4.13.2.2": {
@@ -7581,7 +7650,7 @@
           "buildTransitive/net6.0-android31.0/Xamarin.Google.Guava.ListenableFuture.targets": {}
         }
       },
-      "Xamarin.Jetbrains.Annotations/23.0.0.5": {
+      "Xamarin.Jetbrains.Annotations/24.0.1.5": {
         "type": "package",
         "compile": {
           "lib/net6.0-android31.0/Xamarin.Jetbrains.Annotations.dll": {
@@ -7597,11 +7666,10 @@
           "buildTransitive/net6.0-android31.0/Xamarin.Jetbrains.Annotations.targets": {}
         }
       },
-      "Xamarin.Kotlin.StdLib/1.7.20.1": {
+      "Xamarin.Kotlin.StdLib/1.9.20": {
         "type": "package",
         "dependencies": {
-          "Xamarin.Jetbrains.Annotations": "23.0.0.5",
-          "Xamarin.Kotlin.StdLib.Common": "1.7.20.1"
+          "Xamarin.Jetbrains.Annotations": "24.0.1.5"
         },
         "compile": {
           "lib/net6.0-android31.0/Xamarin.Kotlin.StdLib.dll": {
@@ -7714,9 +7782,6 @@
       }
     },
     "net7.0-android33.0/android-x86": {
-      "Chartboost.CSharp.Mediation.Unity/4.7.0": {
-        "type": "package"
-      },
       "GoogleGson/2.9.1.1": {
         "type": "package",
         "compile": {
@@ -7728,6 +7793,15 @@
           "lib/net6.0-android31.0/GoogleGson.dll": {
             "related": ".aar;.xml"
           }
+        }
+      },
+      "IronSourceAndroidSDK/7.3.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/monoandroid90/IronSource-Android_v7.3.0.1.dll": {}
+        },
+        "runtime": {
+          "lib/monoandroid90/IronSource-Android_v7.3.0.1.dll": {}
         }
       },
       "Microsoft.Extensions.Configuration/7.0.0": {
@@ -7899,7 +7973,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Maui.Graphics/7.0.96": {
+      "Microsoft.Maui.Graphics/7.0.101": {
         "type": "package",
         "compile": {
           "lib/net7.0-android33.0/Microsoft.Maui.Graphics.dll": {
@@ -7910,6 +7984,18 @@
           "lib/net7.0-android33.0/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
+        }
+      },
+      "Microsoft.NET.ILLink.Analyzers/7.0.100-1.23211.1": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.NET.ILLink.Analyzers.props": {}
+        }
+      },
+      "Microsoft.NET.ILLink.Tasks/7.0.100-1.23211.1": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
       "Xamarin.Android.Glide/4.13.2.2": {
@@ -9509,7 +9595,7 @@
           "buildTransitive/net6.0-android31.0/Xamarin.Google.Guava.ListenableFuture.targets": {}
         }
       },
-      "Xamarin.Jetbrains.Annotations/23.0.0.5": {
+      "Xamarin.Jetbrains.Annotations/24.0.1.5": {
         "type": "package",
         "compile": {
           "lib/net6.0-android31.0/Xamarin.Jetbrains.Annotations.dll": {
@@ -9525,11 +9611,10 @@
           "buildTransitive/net6.0-android31.0/Xamarin.Jetbrains.Annotations.targets": {}
         }
       },
-      "Xamarin.Kotlin.StdLib/1.7.20.1": {
+      "Xamarin.Kotlin.StdLib/1.9.20": {
         "type": "package",
         "dependencies": {
-          "Xamarin.Jetbrains.Annotations": "23.0.0.5",
-          "Xamarin.Kotlin.StdLib.Common": "1.7.20.1"
+          "Xamarin.Jetbrains.Annotations": "24.0.1.5"
         },
         "compile": {
           "lib/net6.0-android31.0/Xamarin.Kotlin.StdLib.dll": {
@@ -9642,9 +9727,6 @@
       }
     },
     "net7.0-android33.0/iossimulator-x64": {
-      "Chartboost.CSharp.Mediation.Unity/4.7.0": {
-        "type": "package"
-      },
       "GoogleGson/2.9.1.1": {
         "type": "package",
         "compile": {
@@ -9656,6 +9738,15 @@
           "lib/net6.0-android31.0/GoogleGson.dll": {
             "related": ".aar;.xml"
           }
+        }
+      },
+      "IronSourceAndroidSDK/7.3.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/monoandroid90/IronSource-Android_v7.3.0.1.dll": {}
+        },
+        "runtime": {
+          "lib/monoandroid90/IronSource-Android_v7.3.0.1.dll": {}
         }
       },
       "Microsoft.Extensions.Configuration/7.0.0": {
@@ -9827,7 +9918,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Maui.Graphics/7.0.96": {
+      "Microsoft.Maui.Graphics/7.0.101": {
         "type": "package",
         "compile": {
           "lib/net7.0-android33.0/Microsoft.Maui.Graphics.dll": {
@@ -9838,6 +9929,18 @@
           "lib/net7.0-android33.0/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
+        }
+      },
+      "Microsoft.NET.ILLink.Analyzers/7.0.100-1.23211.1": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.NET.ILLink.Analyzers.props": {}
+        }
+      },
+      "Microsoft.NET.ILLink.Tasks/7.0.100-1.23211.1": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
       "Xamarin.Android.Glide/4.13.2.2": {
@@ -11437,7 +11540,7 @@
           "buildTransitive/net6.0-android31.0/Xamarin.Google.Guava.ListenableFuture.targets": {}
         }
       },
-      "Xamarin.Jetbrains.Annotations/23.0.0.5": {
+      "Xamarin.Jetbrains.Annotations/24.0.1.5": {
         "type": "package",
         "compile": {
           "lib/net6.0-android31.0/Xamarin.Jetbrains.Annotations.dll": {
@@ -11453,11 +11556,10 @@
           "buildTransitive/net6.0-android31.0/Xamarin.Jetbrains.Annotations.targets": {}
         }
       },
-      "Xamarin.Kotlin.StdLib/1.7.20.1": {
+      "Xamarin.Kotlin.StdLib/1.9.20": {
         "type": "package",
         "dependencies": {
-          "Xamarin.Jetbrains.Annotations": "23.0.0.5",
-          "Xamarin.Kotlin.StdLib.Common": "1.7.20.1"
+          "Xamarin.Jetbrains.Annotations": "24.0.1.5"
         },
         "compile": {
           "lib/net6.0-android31.0/Xamarin.Kotlin.StdLib.dll": {
@@ -11570,9 +11672,6 @@
       }
     },
     "net7.0-android33.0/maccatalyst-x64": {
-      "Chartboost.CSharp.Mediation.Unity/4.7.0": {
-        "type": "package"
-      },
       "GoogleGson/2.9.1.1": {
         "type": "package",
         "compile": {
@@ -11584,6 +11683,15 @@
           "lib/net6.0-android31.0/GoogleGson.dll": {
             "related": ".aar;.xml"
           }
+        }
+      },
+      "IronSourceAndroidSDK/7.3.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/monoandroid90/IronSource-Android_v7.3.0.1.dll": {}
+        },
+        "runtime": {
+          "lib/monoandroid90/IronSource-Android_v7.3.0.1.dll": {}
         }
       },
       "Microsoft.Extensions.Configuration/7.0.0": {
@@ -11755,7 +11863,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Maui.Graphics/7.0.96": {
+      "Microsoft.Maui.Graphics/7.0.101": {
         "type": "package",
         "compile": {
           "lib/net7.0-android33.0/Microsoft.Maui.Graphics.dll": {
@@ -11766,6 +11874,18 @@
           "lib/net7.0-android33.0/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
+        }
+      },
+      "Microsoft.NET.ILLink.Analyzers/7.0.100-1.23211.1": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.NET.ILLink.Analyzers.props": {}
+        }
+      },
+      "Microsoft.NET.ILLink.Tasks/7.0.100-1.23211.1": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
       "Xamarin.Android.Glide/4.13.2.2": {
@@ -13365,7 +13485,7 @@
           "buildTransitive/net6.0-android31.0/Xamarin.Google.Guava.ListenableFuture.targets": {}
         }
       },
-      "Xamarin.Jetbrains.Annotations/23.0.0.5": {
+      "Xamarin.Jetbrains.Annotations/24.0.1.5": {
         "type": "package",
         "compile": {
           "lib/net6.0-android31.0/Xamarin.Jetbrains.Annotations.dll": {
@@ -13381,11 +13501,10 @@
           "buildTransitive/net6.0-android31.0/Xamarin.Jetbrains.Annotations.targets": {}
         }
       },
-      "Xamarin.Kotlin.StdLib/1.7.20.1": {
+      "Xamarin.Kotlin.StdLib/1.9.20": {
         "type": "package",
         "dependencies": {
-          "Xamarin.Jetbrains.Annotations": "23.0.0.5",
-          "Xamarin.Kotlin.StdLib.Common": "1.7.20.1"
+          "Xamarin.Jetbrains.Annotations": "24.0.1.5"
         },
         "compile": {
           "lib/net6.0-android31.0/Xamarin.Kotlin.StdLib.dll": {
@@ -13498,9 +13617,6 @@
       }
     },
     "net7.0-android33.0/win10-x64": {
-      "Chartboost.CSharp.Mediation.Unity/4.7.0": {
-        "type": "package"
-      },
       "GoogleGson/2.9.1.1": {
         "type": "package",
         "compile": {
@@ -13512,6 +13628,15 @@
           "lib/net6.0-android31.0/GoogleGson.dll": {
             "related": ".aar;.xml"
           }
+        }
+      },
+      "IronSourceAndroidSDK/7.3.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/monoandroid90/IronSource-Android_v7.3.0.1.dll": {}
+        },
+        "runtime": {
+          "lib/monoandroid90/IronSource-Android_v7.3.0.1.dll": {}
         }
       },
       "Microsoft.Extensions.Configuration/7.0.0": {
@@ -13683,7 +13808,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Maui.Graphics/7.0.96": {
+      "Microsoft.Maui.Graphics/7.0.101": {
         "type": "package",
         "compile": {
           "lib/net7.0-android33.0/Microsoft.Maui.Graphics.dll": {
@@ -13694,6 +13819,18 @@
           "lib/net7.0-android33.0/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
+        }
+      },
+      "Microsoft.NET.ILLink.Analyzers/7.0.100-1.23211.1": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.NET.ILLink.Analyzers.props": {}
+        }
+      },
+      "Microsoft.NET.ILLink.Tasks/7.0.100-1.23211.1": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
       "Xamarin.Android.Glide/4.13.2.2": {
@@ -15293,7 +15430,7 @@
           "buildTransitive/net6.0-android31.0/Xamarin.Google.Guava.ListenableFuture.targets": {}
         }
       },
-      "Xamarin.Jetbrains.Annotations/23.0.0.5": {
+      "Xamarin.Jetbrains.Annotations/24.0.1.5": {
         "type": "package",
         "compile": {
           "lib/net6.0-android31.0/Xamarin.Jetbrains.Annotations.dll": {
@@ -15309,11 +15446,10 @@
           "buildTransitive/net6.0-android31.0/Xamarin.Jetbrains.Annotations.targets": {}
         }
       },
-      "Xamarin.Kotlin.StdLib/1.7.20.1": {
+      "Xamarin.Kotlin.StdLib/1.9.20": {
         "type": "package",
         "dependencies": {
-          "Xamarin.Jetbrains.Annotations": "23.0.0.5",
-          "Xamarin.Kotlin.StdLib.Common": "1.7.20.1"
+          "Xamarin.Jetbrains.Annotations": "24.0.1.5"
         },
         "compile": {
           "lib/net6.0-android31.0/Xamarin.Kotlin.StdLib.dll": {
@@ -15426,9 +15562,6 @@
       }
     },
     "net7.0-ios16.1": {
-      "Chartboost.CSharp.Mediation.Unity/4.7.0": {
-        "type": "package"
-      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -15598,7 +15731,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Maui.Graphics/7.0.96": {
+      "Microsoft.Maui.Graphics/7.0.101": {
         "type": "package",
         "compile": {
           "lib/net7.0-ios16.1/Microsoft.Maui.Graphics.dll": {
@@ -15609,13 +15742,22 @@
           "lib/net7.0-ios16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
+        }
+      },
+      "Microsoft.NET.ILLink.Analyzers/7.0.100-1.23211.1": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.NET.ILLink.Analyzers.props": {}
+        }
+      },
+      "Microsoft.NET.ILLink.Tasks/7.0.100-1.23211.1": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       }
     },
     "net7.0-ios16.1/android-arm": {
-      "Chartboost.CSharp.Mediation.Unity/4.7.0": {
-        "type": "package"
-      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -15785,7 +15927,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Maui.Graphics/7.0.96": {
+      "Microsoft.Maui.Graphics/7.0.101": {
         "type": "package",
         "compile": {
           "lib/net7.0-ios16.1/Microsoft.Maui.Graphics.dll": {
@@ -15796,13 +15938,22 @@
           "lib/net7.0-ios16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
+        }
+      },
+      "Microsoft.NET.ILLink.Analyzers/7.0.100-1.23211.1": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.NET.ILLink.Analyzers.props": {}
+        }
+      },
+      "Microsoft.NET.ILLink.Tasks/7.0.100-1.23211.1": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       }
     },
     "net7.0-ios16.1/android-arm64": {
-      "Chartboost.CSharp.Mediation.Unity/4.7.0": {
-        "type": "package"
-      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -15972,7 +16123,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Maui.Graphics/7.0.96": {
+      "Microsoft.Maui.Graphics/7.0.101": {
         "type": "package",
         "compile": {
           "lib/net7.0-ios16.1/Microsoft.Maui.Graphics.dll": {
@@ -15983,13 +16134,22 @@
           "lib/net7.0-ios16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
+        }
+      },
+      "Microsoft.NET.ILLink.Analyzers/7.0.100-1.23211.1": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.NET.ILLink.Analyzers.props": {}
+        }
+      },
+      "Microsoft.NET.ILLink.Tasks/7.0.100-1.23211.1": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       }
     },
     "net7.0-ios16.1/android-x64": {
-      "Chartboost.CSharp.Mediation.Unity/4.7.0": {
-        "type": "package"
-      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -16159,7 +16319,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Maui.Graphics/7.0.96": {
+      "Microsoft.Maui.Graphics/7.0.101": {
         "type": "package",
         "compile": {
           "lib/net7.0-ios16.1/Microsoft.Maui.Graphics.dll": {
@@ -16170,13 +16330,22 @@
           "lib/net7.0-ios16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
+        }
+      },
+      "Microsoft.NET.ILLink.Analyzers/7.0.100-1.23211.1": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.NET.ILLink.Analyzers.props": {}
+        }
+      },
+      "Microsoft.NET.ILLink.Tasks/7.0.100-1.23211.1": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       }
     },
     "net7.0-ios16.1/android-x86": {
-      "Chartboost.CSharp.Mediation.Unity/4.7.0": {
-        "type": "package"
-      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -16346,7 +16515,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Maui.Graphics/7.0.96": {
+      "Microsoft.Maui.Graphics/7.0.101": {
         "type": "package",
         "compile": {
           "lib/net7.0-ios16.1/Microsoft.Maui.Graphics.dll": {
@@ -16357,13 +16526,22 @@
           "lib/net7.0-ios16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
+        }
+      },
+      "Microsoft.NET.ILLink.Analyzers/7.0.100-1.23211.1": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.NET.ILLink.Analyzers.props": {}
+        }
+      },
+      "Microsoft.NET.ILLink.Tasks/7.0.100-1.23211.1": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       }
     },
     "net7.0-ios16.1/iossimulator-x64": {
-      "Chartboost.CSharp.Mediation.Unity/4.7.0": {
-        "type": "package"
-      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -16533,7 +16711,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Maui.Graphics/7.0.96": {
+      "Microsoft.Maui.Graphics/7.0.101": {
         "type": "package",
         "compile": {
           "lib/net7.0-ios16.1/Microsoft.Maui.Graphics.dll": {
@@ -16544,13 +16722,22 @@
           "lib/net7.0-ios16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
+        }
+      },
+      "Microsoft.NET.ILLink.Analyzers/7.0.100-1.23211.1": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.NET.ILLink.Analyzers.props": {}
+        }
+      },
+      "Microsoft.NET.ILLink.Tasks/7.0.100-1.23211.1": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       }
     },
     "net7.0-ios16.1/maccatalyst-x64": {
-      "Chartboost.CSharp.Mediation.Unity/4.7.0": {
-        "type": "package"
-      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -16720,7 +16907,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Maui.Graphics/7.0.96": {
+      "Microsoft.Maui.Graphics/7.0.101": {
         "type": "package",
         "compile": {
           "lib/net7.0-ios16.1/Microsoft.Maui.Graphics.dll": {
@@ -16731,13 +16918,22 @@
           "lib/net7.0-ios16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
+        }
+      },
+      "Microsoft.NET.ILLink.Analyzers/7.0.100-1.23211.1": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.NET.ILLink.Analyzers.props": {}
+        }
+      },
+      "Microsoft.NET.ILLink.Tasks/7.0.100-1.23211.1": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       }
     },
     "net7.0-ios16.1/win10-x64": {
-      "Chartboost.CSharp.Mediation.Unity/4.7.0": {
-        "type": "package"
-      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -16907,7 +17103,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Maui.Graphics/7.0.96": {
+      "Microsoft.Maui.Graphics/7.0.101": {
         "type": "package",
         "compile": {
           "lib/net7.0-ios16.1/Microsoft.Maui.Graphics.dll": {
@@ -16918,13 +17114,22 @@
           "lib/net7.0-ios16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
+        }
+      },
+      "Microsoft.NET.ILLink.Analyzers/7.0.100-1.23211.1": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.NET.ILLink.Analyzers.props": {}
+        }
+      },
+      "Microsoft.NET.ILLink.Tasks/7.0.100-1.23211.1": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       }
     },
     "net7.0-maccatalyst16.1": {
-      "Chartboost.CSharp.Mediation.Unity/4.7.0": {
-        "type": "package"
-      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -17094,7 +17299,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Maui.Graphics/7.0.96": {
+      "Microsoft.Maui.Graphics/7.0.101": {
         "type": "package",
         "compile": {
           "lib/net7.0-maccatalyst16.1/Microsoft.Maui.Graphics.dll": {
@@ -17105,13 +17310,22 @@
           "lib/net7.0-maccatalyst16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
+        }
+      },
+      "Microsoft.NET.ILLink.Analyzers/7.0.100-1.23211.1": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.NET.ILLink.Analyzers.props": {}
+        }
+      },
+      "Microsoft.NET.ILLink.Tasks/7.0.100-1.23211.1": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       }
     },
     "net7.0-maccatalyst16.1/android-arm": {
-      "Chartboost.CSharp.Mediation.Unity/4.7.0": {
-        "type": "package"
-      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -17281,7 +17495,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Maui.Graphics/7.0.96": {
+      "Microsoft.Maui.Graphics/7.0.101": {
         "type": "package",
         "compile": {
           "lib/net7.0-maccatalyst16.1/Microsoft.Maui.Graphics.dll": {
@@ -17292,13 +17506,22 @@
           "lib/net7.0-maccatalyst16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
+        }
+      },
+      "Microsoft.NET.ILLink.Analyzers/7.0.100-1.23211.1": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.NET.ILLink.Analyzers.props": {}
+        }
+      },
+      "Microsoft.NET.ILLink.Tasks/7.0.100-1.23211.1": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       }
     },
     "net7.0-maccatalyst16.1/android-arm64": {
-      "Chartboost.CSharp.Mediation.Unity/4.7.0": {
-        "type": "package"
-      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -17468,7 +17691,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Maui.Graphics/7.0.96": {
+      "Microsoft.Maui.Graphics/7.0.101": {
         "type": "package",
         "compile": {
           "lib/net7.0-maccatalyst16.1/Microsoft.Maui.Graphics.dll": {
@@ -17479,13 +17702,22 @@
           "lib/net7.0-maccatalyst16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
+        }
+      },
+      "Microsoft.NET.ILLink.Analyzers/7.0.100-1.23211.1": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.NET.ILLink.Analyzers.props": {}
+        }
+      },
+      "Microsoft.NET.ILLink.Tasks/7.0.100-1.23211.1": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       }
     },
     "net7.0-maccatalyst16.1/android-x64": {
-      "Chartboost.CSharp.Mediation.Unity/4.7.0": {
-        "type": "package"
-      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -17655,7 +17887,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Maui.Graphics/7.0.96": {
+      "Microsoft.Maui.Graphics/7.0.101": {
         "type": "package",
         "compile": {
           "lib/net7.0-maccatalyst16.1/Microsoft.Maui.Graphics.dll": {
@@ -17666,13 +17898,22 @@
           "lib/net7.0-maccatalyst16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
+        }
+      },
+      "Microsoft.NET.ILLink.Analyzers/7.0.100-1.23211.1": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.NET.ILLink.Analyzers.props": {}
+        }
+      },
+      "Microsoft.NET.ILLink.Tasks/7.0.100-1.23211.1": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       }
     },
     "net7.0-maccatalyst16.1/android-x86": {
-      "Chartboost.CSharp.Mediation.Unity/4.7.0": {
-        "type": "package"
-      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -17842,7 +18083,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Maui.Graphics/7.0.96": {
+      "Microsoft.Maui.Graphics/7.0.101": {
         "type": "package",
         "compile": {
           "lib/net7.0-maccatalyst16.1/Microsoft.Maui.Graphics.dll": {
@@ -17853,13 +18094,22 @@
           "lib/net7.0-maccatalyst16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
+        }
+      },
+      "Microsoft.NET.ILLink.Analyzers/7.0.100-1.23211.1": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.NET.ILLink.Analyzers.props": {}
+        }
+      },
+      "Microsoft.NET.ILLink.Tasks/7.0.100-1.23211.1": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       }
     },
     "net7.0-maccatalyst16.1/iossimulator-x64": {
-      "Chartboost.CSharp.Mediation.Unity/4.7.0": {
-        "type": "package"
-      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -18029,7 +18279,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Maui.Graphics/7.0.96": {
+      "Microsoft.Maui.Graphics/7.0.101": {
         "type": "package",
         "compile": {
           "lib/net7.0-maccatalyst16.1/Microsoft.Maui.Graphics.dll": {
@@ -18040,13 +18290,22 @@
           "lib/net7.0-maccatalyst16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
+        }
+      },
+      "Microsoft.NET.ILLink.Analyzers/7.0.100-1.23211.1": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.NET.ILLink.Analyzers.props": {}
+        }
+      },
+      "Microsoft.NET.ILLink.Tasks/7.0.100-1.23211.1": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       }
     },
     "net7.0-maccatalyst16.1/maccatalyst-x64": {
-      "Chartboost.CSharp.Mediation.Unity/4.7.0": {
-        "type": "package"
-      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -18216,7 +18475,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Maui.Graphics/7.0.96": {
+      "Microsoft.Maui.Graphics/7.0.101": {
         "type": "package",
         "compile": {
           "lib/net7.0-maccatalyst16.1/Microsoft.Maui.Graphics.dll": {
@@ -18227,13 +18486,22 @@
           "lib/net7.0-maccatalyst16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
+        }
+      },
+      "Microsoft.NET.ILLink.Analyzers/7.0.100-1.23211.1": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.NET.ILLink.Analyzers.props": {}
+        }
+      },
+      "Microsoft.NET.ILLink.Tasks/7.0.100-1.23211.1": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       }
     },
     "net7.0-maccatalyst16.1/win10-x64": {
-      "Chartboost.CSharp.Mediation.Unity/4.7.0": {
-        "type": "package"
-      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -18403,7 +18671,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Maui.Graphics/7.0.96": {
+      "Microsoft.Maui.Graphics/7.0.101": {
         "type": "package",
         "compile": {
           "lib/net7.0-maccatalyst16.1/Microsoft.Maui.Graphics.dll": {
@@ -18415,12 +18683,21 @@
             "related": ".pdb;.xml"
           }
         }
+      },
+      "Microsoft.NET.ILLink.Analyzers/7.0.100-1.23211.1": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.NET.ILLink.Analyzers.props": {}
+        }
+      },
+      "Microsoft.NET.ILLink.Tasks/7.0.100-1.23211.1": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
       }
     },
     "net7.0-windows10.0.19041": {
-      "Chartboost.CSharp.Mediation.Unity/4.7.0": {
-        "type": "package"
-      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -18619,7 +18896,7 @@
           }
         }
       },
-      "Microsoft.Maui.Graphics/7.0.96": {
+      "Microsoft.Maui.Graphics/7.0.101": {
         "type": "package",
         "compile": {
           "lib/net7.0-windows10.0.19041/Microsoft.Maui.Graphics.dll": {
@@ -18632,11 +18909,11 @@
           }
         }
       },
-      "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop/7.0.96": {
+      "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop/7.0.101": {
         "type": "package",
         "dependencies": {
           "Microsoft.Graphics.Win2D": "1.0.5.1",
-          "Microsoft.Maui.Graphics": "7.0.96",
+          "Microsoft.Maui.Graphics": "7.0.101",
           "Microsoft.Windows.SDK.BuildTools": "10.0.22621.756",
           "Microsoft.WindowsAppSDK": "1.2.221209.1"
         },
@@ -18744,9 +19021,6 @@
       }
     },
     "net7.0-windows10.0.19041/android-arm": {
-      "Chartboost.CSharp.Mediation.Unity/4.7.0": {
-        "type": "package"
-      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -18931,7 +19205,7 @@
           "build/net5.0-windows10.0.17763.0/_._": {}
         }
       },
-      "Microsoft.Maui.Graphics/7.0.96": {
+      "Microsoft.Maui.Graphics/7.0.101": {
         "type": "package",
         "compile": {
           "lib/net7.0-windows10.0.19041/Microsoft.Maui.Graphics.dll": {
@@ -18944,11 +19218,11 @@
           }
         }
       },
-      "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop/7.0.96": {
+      "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop/7.0.101": {
         "type": "package",
         "dependencies": {
           "Microsoft.Graphics.Win2D": "1.0.5.1",
-          "Microsoft.Maui.Graphics": "7.0.96",
+          "Microsoft.Maui.Graphics": "7.0.101",
           "Microsoft.Windows.SDK.BuildTools": "10.0.22621.756",
           "Microsoft.WindowsAppSDK": "1.2.221209.1"
         },
@@ -19042,9 +19316,6 @@
       }
     },
     "net7.0-windows10.0.19041/android-arm64": {
-      "Chartboost.CSharp.Mediation.Unity/4.7.0": {
-        "type": "package"
-      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -19229,7 +19500,7 @@
           "build/net5.0-windows10.0.17763.0/_._": {}
         }
       },
-      "Microsoft.Maui.Graphics/7.0.96": {
+      "Microsoft.Maui.Graphics/7.0.101": {
         "type": "package",
         "compile": {
           "lib/net7.0-windows10.0.19041/Microsoft.Maui.Graphics.dll": {
@@ -19242,11 +19513,11 @@
           }
         }
       },
-      "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop/7.0.96": {
+      "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop/7.0.101": {
         "type": "package",
         "dependencies": {
           "Microsoft.Graphics.Win2D": "1.0.5.1",
-          "Microsoft.Maui.Graphics": "7.0.96",
+          "Microsoft.Maui.Graphics": "7.0.101",
           "Microsoft.Windows.SDK.BuildTools": "10.0.22621.756",
           "Microsoft.WindowsAppSDK": "1.2.221209.1"
         },
@@ -19340,9 +19611,6 @@
       }
     },
     "net7.0-windows10.0.19041/android-x64": {
-      "Chartboost.CSharp.Mediation.Unity/4.7.0": {
-        "type": "package"
-      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -19527,7 +19795,7 @@
           "build/net5.0-windows10.0.17763.0/_._": {}
         }
       },
-      "Microsoft.Maui.Graphics/7.0.96": {
+      "Microsoft.Maui.Graphics/7.0.101": {
         "type": "package",
         "compile": {
           "lib/net7.0-windows10.0.19041/Microsoft.Maui.Graphics.dll": {
@@ -19540,11 +19808,11 @@
           }
         }
       },
-      "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop/7.0.96": {
+      "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop/7.0.101": {
         "type": "package",
         "dependencies": {
           "Microsoft.Graphics.Win2D": "1.0.5.1",
-          "Microsoft.Maui.Graphics": "7.0.96",
+          "Microsoft.Maui.Graphics": "7.0.101",
           "Microsoft.Windows.SDK.BuildTools": "10.0.22621.756",
           "Microsoft.WindowsAppSDK": "1.2.221209.1"
         },
@@ -19638,9 +19906,6 @@
       }
     },
     "net7.0-windows10.0.19041/android-x86": {
-      "Chartboost.CSharp.Mediation.Unity/4.7.0": {
-        "type": "package"
-      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -19825,7 +20090,7 @@
           "build/net5.0-windows10.0.17763.0/_._": {}
         }
       },
-      "Microsoft.Maui.Graphics/7.0.96": {
+      "Microsoft.Maui.Graphics/7.0.101": {
         "type": "package",
         "compile": {
           "lib/net7.0-windows10.0.19041/Microsoft.Maui.Graphics.dll": {
@@ -19838,11 +20103,11 @@
           }
         }
       },
-      "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop/7.0.96": {
+      "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop/7.0.101": {
         "type": "package",
         "dependencies": {
           "Microsoft.Graphics.Win2D": "1.0.5.1",
-          "Microsoft.Maui.Graphics": "7.0.96",
+          "Microsoft.Maui.Graphics": "7.0.101",
           "Microsoft.Windows.SDK.BuildTools": "10.0.22621.756",
           "Microsoft.WindowsAppSDK": "1.2.221209.1"
         },
@@ -19936,9 +20201,6 @@
       }
     },
     "net7.0-windows10.0.19041/iossimulator-x64": {
-      "Chartboost.CSharp.Mediation.Unity/4.7.0": {
-        "type": "package"
-      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -20123,7 +20385,7 @@
           "build/net5.0-windows10.0.17763.0/_._": {}
         }
       },
-      "Microsoft.Maui.Graphics/7.0.96": {
+      "Microsoft.Maui.Graphics/7.0.101": {
         "type": "package",
         "compile": {
           "lib/net7.0-windows10.0.19041/Microsoft.Maui.Graphics.dll": {
@@ -20136,11 +20398,11 @@
           }
         }
       },
-      "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop/7.0.96": {
+      "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop/7.0.101": {
         "type": "package",
         "dependencies": {
           "Microsoft.Graphics.Win2D": "1.0.5.1",
-          "Microsoft.Maui.Graphics": "7.0.96",
+          "Microsoft.Maui.Graphics": "7.0.101",
           "Microsoft.Windows.SDK.BuildTools": "10.0.22621.756",
           "Microsoft.WindowsAppSDK": "1.2.221209.1"
         },
@@ -20234,9 +20496,6 @@
       }
     },
     "net7.0-windows10.0.19041/maccatalyst-x64": {
-      "Chartboost.CSharp.Mediation.Unity/4.7.0": {
-        "type": "package"
-      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -20421,7 +20680,7 @@
           "build/net5.0-windows10.0.17763.0/_._": {}
         }
       },
-      "Microsoft.Maui.Graphics/7.0.96": {
+      "Microsoft.Maui.Graphics/7.0.101": {
         "type": "package",
         "compile": {
           "lib/net7.0-windows10.0.19041/Microsoft.Maui.Graphics.dll": {
@@ -20434,11 +20693,11 @@
           }
         }
       },
-      "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop/7.0.96": {
+      "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop/7.0.101": {
         "type": "package",
         "dependencies": {
           "Microsoft.Graphics.Win2D": "1.0.5.1",
-          "Microsoft.Maui.Graphics": "7.0.96",
+          "Microsoft.Maui.Graphics": "7.0.101",
           "Microsoft.Windows.SDK.BuildTools": "10.0.22621.756",
           "Microsoft.WindowsAppSDK": "1.2.221209.1"
         },
@@ -20532,9 +20791,6 @@
       }
     },
     "net7.0-windows10.0.19041/win10-x64": {
-      "Chartboost.CSharp.Mediation.Unity/4.7.0": {
-        "type": "package"
-      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -20722,7 +20978,7 @@
           "build/net5.0-windows10.0.17763.0/_._": {}
         }
       },
-      "Microsoft.Maui.Graphics/7.0.96": {
+      "Microsoft.Maui.Graphics/7.0.101": {
         "type": "package",
         "compile": {
           "lib/net7.0-windows10.0.19041/Microsoft.Maui.Graphics.dll": {
@@ -20735,11 +20991,11 @@
           }
         }
       },
-      "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop/7.0.96": {
+      "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop/7.0.101": {
         "type": "package",
         "dependencies": {
           "Microsoft.Graphics.Win2D": "1.0.5.1",
-          "Microsoft.Maui.Graphics": "7.0.96",
+          "Microsoft.Maui.Graphics": "7.0.101",
           "Microsoft.Windows.SDK.BuildTools": "10.0.22621.756",
           "Microsoft.WindowsAppSDK": "1.2.221209.1"
         },
@@ -20837,1136 +21093,6 @@
     }
   },
   "libraries": {
-    "Chartboost.CSharp.Mediation.Unity/4.7.0": {
-      "sha512": "7vFExhVSHDxiu85JlkijC1Pvao28k/X2M4HwJ/OGAZ9GkXKpQn9lCbgUo+xIqPViR4zbp7nbCD6TwZTQU2o0sw==",
-      "type": "package",
-      "path": "chartboost.csharp.mediation.unity/4.7.0",
-      "files": [
-        ".DS_Store",
-        ".gitignore",
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Android~/.DS_Store",
-        "Android~/.gradle/7.6/checksums/checksums.lock",
-        "Android~/.gradle/7.6/checksums/md5-checksums.bin",
-        "Android~/.gradle/7.6/checksums/sha1-checksums.bin",
-        "Android~/.gradle/7.6/dependencies-accessors/dependencies-accessors.lock",
-        "Android~/.gradle/7.6/dependencies-accessors/gc.properties",
-        "Android~/.gradle/7.6/executionHistory/executionHistory.bin",
-        "Android~/.gradle/7.6/executionHistory/executionHistory.lock",
-        "Android~/.gradle/7.6/fileChanges/last-build.bin",
-        "Android~/.gradle/7.6/fileHashes/fileHashes.bin",
-        "Android~/.gradle/7.6/fileHashes/fileHashes.lock",
-        "Android~/.gradle/7.6/fileHashes/resourceHashesCache.bin",
-        "Android~/.gradle/7.6/gc.properties",
-        "Android~/.gradle/8.2.1/checksums/checksums.lock",
-        "Android~/.gradle/8.2.1/checksums/md5-checksums.bin",
-        "Android~/.gradle/8.2.1/checksums/sha1-checksums.bin",
-        "Android~/.gradle/8.2.1/dependencies-accessors/dependencies-accessors.lock",
-        "Android~/.gradle/8.2.1/dependencies-accessors/gc.properties",
-        "Android~/.gradle/8.2.1/executionHistory/executionHistory.lock",
-        "Android~/.gradle/8.2.1/fileChanges/last-build.bin",
-        "Android~/.gradle/8.2.1/fileHashes/fileHashes.lock",
-        "Android~/.gradle/8.2.1/gc.properties",
-        "Android~/.gradle/buildOutputCleanup/buildOutputCleanup.lock",
-        "Android~/.gradle/buildOutputCleanup/cache.properties",
-        "Android~/.gradle/buildOutputCleanup/outputFiles.bin",
-        "Android~/.gradle/config.properties",
-        "Android~/.gradle/file-system.probe",
-        "Android~/.gradle/vcs-1/gc.properties",
-        "Android~/.idea/.gitignore",
-        "Android~/.idea/codeStyles/Project.xml",
-        "Android~/.idea/codeStyles/codeStyleConfig.xml",
-        "Android~/.idea/compiler.xml",
-        "Android~/.idea/gradle.xml",
-        "Android~/.idea/inspectionProfiles/Project_Default.xml",
-        "Android~/.idea/jarRepositories.xml",
-        "Android~/.idea/kotlinc.xml",
-        "Android~/.idea/migrations.xml",
-        "Android~/.idea/misc.xml",
-        "Android~/.idea/vcs.xml",
-        "Android~/.idea/workspace.xml",
-        "Android~/bridge-sdk-test/.gitignore",
-        "Android~/bridge-sdk-test/build.gradle",
-        "Android~/bridge-sdk-test/proguard-rules.pro",
-        "Android~/bridge-sdk-test/src/androidTest/java/com/chartboost/bridge_sdk_test/ExampleInstrumentedTest.java",
-        "Android~/bridge-sdk-test/src/main/AndroidManifest.xml",
-        "Android~/bridge-sdk-test/src/main/res/drawable/ic_launcher_background.xml",
-        "Android~/bridge-sdk-test/src/main/res/drawable/ic_launcher_foreground.xml",
-        "Android~/bridge-sdk-test/src/main/res/layout/test_layout.xml",
-        "Android~/bridge-sdk-test/src/main/res/mipmap-anydpi-v26/ic_launcher.xml",
-        "Android~/bridge-sdk-test/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml",
-        "Android~/bridge-sdk-test/src/main/res/mipmap-hdpi/ic_launcher.webp",
-        "Android~/bridge-sdk-test/src/main/res/mipmap-hdpi/ic_launcher_round.webp",
-        "Android~/bridge-sdk-test/src/main/res/mipmap-mdpi/ic_launcher.webp",
-        "Android~/bridge-sdk-test/src/main/res/mipmap-mdpi/ic_launcher_round.webp",
-        "Android~/bridge-sdk-test/src/main/res/mipmap-xhdpi/ic_launcher.webp",
-        "Android~/bridge-sdk-test/src/main/res/mipmap-xhdpi/ic_launcher_round.webp",
-        "Android~/bridge-sdk-test/src/main/res/mipmap-xxhdpi/ic_launcher.webp",
-        "Android~/bridge-sdk-test/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp",
-        "Android~/bridge-sdk-test/src/main/res/mipmap-xxxhdpi/ic_launcher.webp",
-        "Android~/bridge-sdk-test/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp",
-        "Android~/bridge-sdk-test/src/main/res/values-night/themes.xml",
-        "Android~/bridge-sdk-test/src/main/res/values/colors.xml",
-        "Android~/bridge-sdk-test/src/main/res/values/strings.xml",
-        "Android~/bridge-sdk-test/src/main/res/values/themes.xml",
-        "Android~/bridge-sdk-test/src/test/java/com/chartboost/bridge_sdk_test/ExampleUnitTest.java",
-        "Android~/build.gradle",
-        "Android~/chartboost-mediation-android-bridge/.DS_Store",
-        "Android~/chartboost-mediation-android-bridge/.gitignore",
-        "Android~/chartboost-mediation-android-bridge/build.gradle",
-        "Android~/chartboost-mediation-android-bridge/libs/unity-classes.jar",
-        "Android~/chartboost-mediation-android-bridge/src/main/AndroidManifest.xml",
-        "Android~/chartboost-mediation-android-bridge/src/main/java/com/chartboost/mediation/.DS_Store",
-        "Android~/chartboost-mediation-android-bridge/src/main/java/com/chartboost/mediation/unity/AdStore.kt",
-        "Android~/chartboost-mediation-android-bridge/src/main/java/com/chartboost/mediation/unity/AdWrapper.kt",
-        "Android~/chartboost-mediation-android-bridge/src/main/java/com/chartboost/mediation/unity/BannerAdWrapper.kt",
-        "Android~/chartboost-mediation-android-bridge/src/main/java/com/chartboost/mediation/unity/BannerLayout.kt",
-        "Android~/chartboost-mediation-android-bridge/src/main/java/com/chartboost/mediation/unity/ChartboostMediationBannerViewListener.kt",
-        "Android~/chartboost-mediation-android-bridge/src/main/java/com/chartboost/mediation/unity/EventProcessor.kt",
-        "Android~/chartboost-mediation-android-bridge/src/main/java/com/chartboost/mediation/unity/IBannerDragListener.kt",
-        "Android~/chartboost-mediation-android-bridge/src/main/java/com/chartboost/mediation/unity/IBannerEventListener.kt",
-        "Android~/chartboost-mediation-android-bridge/src/main/java/com/chartboost/mediation/unity/IInterstitialEventListener.kt",
-        "Android~/chartboost-mediation-android-bridge/src/main/java/com/chartboost/mediation/unity/IRewardedEventListener.kt",
-        "Android~/chartboost-mediation-android-bridge/src/main/java/com/chartboost/mediation/unity/UnityBridge.kt",
-        "Android~/gradle.properties",
-        "Android~/gradle/wrapper/gradle-wrapper.jar",
-        "Android~/gradle/wrapper/gradle-wrapper.properties",
-        "Android~/gradlew",
-        "Android~/gradlew.bat",
-        "Android~/local.properties",
-        "Android~/settings.gradle",
-        "Android~/testsdk/.gitignore",
-        "Android~/testsdk/build.gradle",
-        "Android~/testsdk/proguard-rules.pro",
-        "Android~/testsdk/src/androidTest/java/com/chartboost/testsdk/ExampleInstrumentedTest.kt",
-        "Android~/testsdk/src/main/AndroidManifest.xml",
-        "Android~/testsdk/src/main/java/com/chartboost/testsdk/MainActivity.kt",
-        "Android~/testsdk/src/main/java/com/chartboost/testsdk/ui/theme/Color.kt",
-        "Android~/testsdk/src/main/java/com/chartboost/testsdk/ui/theme/Theme.kt",
-        "Android~/testsdk/src/main/java/com/chartboost/testsdk/ui/theme/Type.kt",
-        "Android~/testsdk/src/main/res/drawable/ic_launcher_background.xml",
-        "Android~/testsdk/src/main/res/drawable/ic_launcher_foreground.xml",
-        "Android~/testsdk/src/main/res/mipmap-anydpi-v26/ic_launcher.xml",
-        "Android~/testsdk/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml",
-        "Android~/testsdk/src/main/res/mipmap-hdpi/ic_launcher.webp",
-        "Android~/testsdk/src/main/res/mipmap-hdpi/ic_launcher_round.webp",
-        "Android~/testsdk/src/main/res/mipmap-mdpi/ic_launcher.webp",
-        "Android~/testsdk/src/main/res/mipmap-mdpi/ic_launcher_round.webp",
-        "Android~/testsdk/src/main/res/mipmap-xhdpi/ic_launcher.webp",
-        "Android~/testsdk/src/main/res/mipmap-xhdpi/ic_launcher_round.webp",
-        "Android~/testsdk/src/main/res/mipmap-xxhdpi/ic_launcher.webp",
-        "Android~/testsdk/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp",
-        "Android~/testsdk/src/main/res/mipmap-xxxhdpi/ic_launcher.webp",
-        "Android~/testsdk/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp",
-        "Android~/testsdk/src/main/res/values/colors.xml",
-        "Android~/testsdk/src/main/res/values/strings.xml",
-        "Android~/testsdk/src/main/res/values/themes.xml",
-        "Android~/testsdk/src/test/java/com/chartboost/testsdk/ExampleUnitTest.kt",
-        "CHANGELOG.md",
-        "CHANGELOG.md.meta",
-        "Chartboost.CSharp.Mediation.Unity.nuspec.meta",
-        "Dependencies.meta",
-        "Dependencies/ChartboostMediationDependencyPackageInstaller.cs",
-        "Dependencies/ChartboostMediationDependencyPackageInstaller.cs.meta",
-        "Dependencies/com.chartboost.mediation.Dependenies.asmdef",
-        "Dependencies/com.chartboost.mediation.Dependenies.asmdef.meta",
-        "Documentation.meta",
-        "Documentation/faq.md",
-        "Documentation/faq.md.meta",
-        "Documentation/images.meta",
-        "Documentation/images/adapters-window-default.png",
-        "Documentation/images/adapters-window-default.png.meta",
-        "Documentation/images/adapters-window-refresh.png",
-        "Documentation/images/adapters-window-refresh.png.meta",
-        "Documentation/images/adapters-window-save.png",
-        "Documentation/images/adapters-window-save.png.meta",
-        "Documentation/images/adapters-window-upgrade.png",
-        "Documentation/images/adapters-window-upgrade.png.meta",
-        "Documentation/images/adapters-window-warning.png",
-        "Documentation/images/adapters-window-warning.png.meta",
-        "Documentation/images/chartboost-mediation-settings.png",
-        "Documentation/images/chartboost-mediation-settings.png.meta",
-        "Documentation/images/create-unity-banner-ad.png",
-        "Documentation/images/create-unity-banner-ad.png.meta",
-        "Documentation/integration.meta",
-        "Documentation/integration/configure.md",
-        "Documentation/integration/configure.md.meta",
-        "Documentation/integration/delegate-usage.md",
-        "Documentation/integration/delegate-usage.md.meta",
-        "Documentation/integration/error-codes.md",
-        "Documentation/integration/error-codes.md.meta",
-        "Documentation/integration/helium-to-chartboost-mediation.md",
-        "Documentation/integration/helium-to-chartboost-mediation.md.meta",
-        "Documentation/integration/initialization.md",
-        "Documentation/integration/initialization.md.meta",
-        "Documentation/integration/loading-ads.md",
-        "Documentation/integration/loading-ads.md.meta",
-        "Documentation/integration/showing-ads.md",
-        "Documentation/integration/showing-ads.md.meta",
-        "Documentation/integration/unit-testing.md",
-        "Documentation/integration/unit-testing.md.meta",
-        "Documentation/setup.meta",
-        "Documentation/setup/ad-adapters.md",
-        "Documentation/setup/ad-adapters.md.meta",
-        "Documentation/setup/androidmanifest.md",
-        "Documentation/setup/androidmanifest.md.meta",
-        "Documentation/setup/edm.md",
-        "Documentation/setup/edm.md.meta",
-        "Documentation/setup/multidex.md",
-        "Documentation/setup/multidex.md.meta",
-        "Documentation/setup/settings.md",
-        "Documentation/setup/settings.md.meta",
-        "Editor.meta",
-        "Editor/BuildTools.meta",
-        "Editor/BuildTools/ChartboostMediationPostprocessor.cs",
-        "Editor/BuildTools/ChartboostMediationPostprocessor.cs.meta",
-        "Editor/BuildTools/ChartboostMediationPreprocessor.cs",
-        "Editor/BuildTools/ChartboostMediationPreprocessor.cs.meta",
-        "Editor/ChartboostEditorConfiguration.cs",
-        "Editor/ChartboostEditorConfiguration.cs.meta",
-        "Editor/ChartboostMediationIntegrationChecker.cs",
-        "Editor/ChartboostMediationIntegrationChecker.cs.meta",
-        "Editor/ChartboostMediationUnityBannerAdEditor.cs",
-        "Editor/ChartboostMediationUnityBannerAdEditor.cs.meta",
-        "Editor/EditorWindows.meta",
-        "Editor/EditorWindows/Adapters.meta",
-        "Editor/EditorWindows/Adapters/AdapterDataSource.cs",
-        "Editor/EditorWindows/Adapters/AdapterDataSource.cs.meta",
-        "Editor/EditorWindows/Adapters/AdaptersWindow.Constants.cs",
-        "Editor/EditorWindows/Adapters/AdaptersWindow.Constants.cs.meta",
-        "Editor/EditorWindows/Adapters/AdaptersWindow.Serialization.cs",
-        "Editor/EditorWindows/Adapters/AdaptersWindow.Serialization.cs.meta",
-        "Editor/EditorWindows/Adapters/AdaptersWindow.Utilities.cs",
-        "Editor/EditorWindows/Adapters/AdaptersWindow.Utilities.cs.meta",
-        "Editor/EditorWindows/Adapters/AdaptersWindow.cs",
-        "Editor/EditorWindows/Adapters/AdaptersWindow.cs.meta",
-        "Editor/EditorWindows/Adapters/Comparers.meta",
-        "Editor/EditorWindows/Adapters/Comparers/AdapterSelectionComparer.cs",
-        "Editor/EditorWindows/Adapters/Comparers/AdapterSelectionComparer.cs.meta",
-        "Editor/EditorWindows/Adapters/Comparers/DictionaryComparer.cs",
-        "Editor/EditorWindows/Adapters/Comparers/DictionaryComparer.cs.meta",
-        "Editor/EditorWindows/Adapters/Resources.meta",
-        "Editor/EditorWindows/Adapters/Resources/AdaptersRefresh.png",
-        "Editor/EditorWindows/Adapters/Resources/AdaptersRefresh.png.meta",
-        "Editor/EditorWindows/Adapters/Resources/AdaptersSave.png",
-        "Editor/EditorWindows/Adapters/Resources/AdaptersSave.png.meta",
-        "Editor/EditorWindows/Adapters/Resources/AdaptersUpgrade.png",
-        "Editor/EditorWindows/Adapters/Resources/AdaptersUpgrade.png.meta",
-        "Editor/EditorWindows/Adapters/Resources/AdaptersWarning.png",
-        "Editor/EditorWindows/Adapters/Resources/AdaptersWarning.png.meta",
-        "Editor/EditorWindows/Adapters/Resources/AdaptersWindowStyleSheet.uss",
-        "Editor/EditorWindows/Adapters/Resources/AdaptersWindowStyleSheet.uss.meta",
-        "Editor/EditorWindows/Adapters/Resources/ChartboostMediationLogo.png",
-        "Editor/EditorWindows/Adapters/Resources/ChartboostMediationLogo.png.meta",
-        "Editor/EditorWindows/Adapters/Resources/TemplateAdapter.xml",
-        "Editor/EditorWindows/Adapters/Resources/TemplateAdapter.xml.meta",
-        "Editor/EditorWindows/Adapters/Resources/TemplateChartboostMediation.xml",
-        "Editor/EditorWindows/Adapters/Resources/TemplateChartboostMediation.xml.meta",
-        "Editor/EditorWindows/Adapters/Serialization.meta",
-        "Editor/EditorWindows/Adapters/Serialization/Adapter.cs",
-        "Editor/EditorWindows/Adapters/Serialization/Adapter.cs.meta",
-        "Editor/EditorWindows/Adapters/Serialization/AdapterChange.cs",
-        "Editor/EditorWindows/Adapters/Serialization/AdapterChange.cs.meta",
-        "Editor/EditorWindows/Adapters/Serialization/AdapterData.cs",
-        "Editor/EditorWindows/Adapters/Serialization/AdapterData.cs.meta",
-        "Editor/EditorWindows/Adapters/Serialization/AdapterSelection.cs",
-        "Editor/EditorWindows/Adapters/Serialization/AdapterSelection.cs.meta",
-        "Editor/EditorWindows/Adapters/Serialization/AdapterVersion.cs",
-        "Editor/EditorWindows/Adapters/Serialization/AdapterVersion.cs.meta",
-        "Editor/EditorWindows/Adapters/Serialization/Documentation.cs",
-        "Editor/EditorWindows/Adapters/Serialization/Documentation.cs.meta",
-        "Editor/EditorWindows/Adapters/Serialization/NativeAdapter.cs",
-        "Editor/EditorWindows/Adapters/Serialization/NativeAdapter.cs.meta",
-        "Editor/EditorWindows/Adapters/Serialization/PartnerVersions.cs",
-        "Editor/EditorWindows/Adapters/Serialization/PartnerVersions.cs.meta",
-        "Editor/EditorWindows/Adapters/Serialization/Platform.cs",
-        "Editor/EditorWindows/Adapters/Serialization/Platform.cs.meta",
-        "Editor/EditorWindows/Adapters/Serialization/SDKSelections.cs",
-        "Editor/EditorWindows/Adapters/Serialization/SDKSelections.cs.meta",
-        "Editor/EditorWindows/CustomEditorWindow.cs",
-        "Editor/EditorWindows/CustomEditorWindow.cs.meta",
-        "Editor/EditorWindows/CustomEditorWindowAttribute.cs",
-        "Editor/EditorWindows/CustomEditorWindowAttribute.cs.meta",
-        "Editor/EditorWindows/Settings.meta",
-        "Editor/EditorWindows/Settings/Resources.meta",
-        "Editor/EditorWindows/Settings/Resources/SettingsWindowStyleSheet.uss",
-        "Editor/EditorWindows/Settings/Resources/SettingsWindowStyleSheet.uss.meta",
-        "Editor/EditorWindows/Settings/SettingsWindow.Constants.cs",
-        "Editor/EditorWindows/Settings/SettingsWindow.Constants.cs.meta",
-        "Editor/EditorWindows/Settings/SettingsWindow.cs",
-        "Editor/EditorWindows/Settings/SettingsWindow.cs.meta",
-        "Editor/EditorWindows/WindowPriority.cs",
-        "Editor/EditorWindows/WindowPriority.cs.meta",
-        "Editor/EditorWindows/WindowPriorityManager.cs",
-        "Editor/EditorWindows/WindowPriorityManager.cs.meta",
-        "Editor/SKAdNetwork.meta",
-        "Editor/SKAdNetwork/IdEntry.cs",
-        "Editor/SKAdNetwork/IdEntry.cs.meta",
-        "Editor/SKAdNetwork/SKAdNetworkConstants.cs",
-        "Editor/SKAdNetwork/SKAdNetworkConstants.cs.meta",
-        "Editor/SKAdNetwork/SKAdNetworkIds.cs",
-        "Editor/SKAdNetwork/SKAdNetworkIds.cs.meta",
-        "Editor/SKAdNetwork/SKAdNetworkRequest.cs",
-        "Editor/SKAdNetwork/SKAdNetworkRequest.cs.meta",
-        "Editor/Utilities.cs",
-        "Editor/Utilities.cs.meta",
-        "Editor/com.chartboost.mediation.Editor.asmdef",
-        "Editor/com.chartboost.mediation.Editor.asmdef.meta",
-        "Editor/link.xml",
-        "Editor/link.xml.meta",
-        "LICENSE.md",
-        "LICENSE.md.meta",
-        "README.md",
-        "README.md.meta",
-        "Runtime.meta",
-        "Runtime/.DS_Store",
-        "Runtime/AdFormats.meta",
-        "Runtime/AdFormats/.DS_Store",
-        "Runtime/AdFormats/Banner.meta",
-        "Runtime/AdFormats/Banner/.DS_Store",
-        "Runtime/AdFormats/Banner/ChartboostMediationBannerResizeAxis.cs",
-        "Runtime/AdFormats/Banner/ChartboostMediationBannerResizeAxis.cs.meta",
-        "Runtime/AdFormats/Banner/ChartboostMediationBannerSize.cs",
-        "Runtime/AdFormats/Banner/ChartboostMediationBannerSize.cs.meta",
-        "Runtime/AdFormats/Banner/ChartboostMediationBannerViewAndroid.cs",
-        "Runtime/AdFormats/Banner/ChartboostMediationBannerViewAndroid.cs.meta",
-        "Runtime/AdFormats/Banner/ChartboostMediationBannerViewBase.cs",
-        "Runtime/AdFormats/Banner/ChartboostMediationBannerViewBase.cs.meta",
-        "Runtime/AdFormats/Banner/ChartboostMediationBannerViewIOS.cs",
-        "Runtime/AdFormats/Banner/ChartboostMediationBannerViewIOS.cs.meta",
-        "Runtime/AdFormats/Banner/ChartboostMediationBannerViewUnsupported.cs",
-        "Runtime/AdFormats/Banner/ChartboostMediationBannerViewUnsupported.cs.meta",
-        "Runtime/AdFormats/Banner/IChartboostMediationBannerView.cs",
-        "Runtime/AdFormats/Banner/IChartboostMediationBannerView.cs.meta",
-        "Runtime/AdFormats/Banner/Unity.meta",
-        "Runtime/AdFormats/Banner/Unity/ChartboostMediationUnityBannerAd.Creator.cs",
-        "Runtime/AdFormats/Banner/Unity/ChartboostMediationUnityBannerAd.Creator.cs.meta",
-        "Runtime/AdFormats/Banner/Unity/ChartboostMediationUnityBannerAd.cs",
-        "Runtime/AdFormats/Banner/Unity/ChartboostMediationUnityBannerAd.cs.meta",
-        "Runtime/AdFormats/Fullscreen.meta",
-        "Runtime/AdFormats/Fullscreen/ChartboostMediationFullscreenAdAndroid.cs",
-        "Runtime/AdFormats/Fullscreen/ChartboostMediationFullscreenAdAndroid.cs.meta",
-        "Runtime/AdFormats/Fullscreen/ChartboostMediationFullscreenAdBase.cs",
-        "Runtime/AdFormats/Fullscreen/ChartboostMediationFullscreenAdBase.cs.meta",
-        "Runtime/AdFormats/Fullscreen/ChartboostMediationFullscreenAdIOS.cs",
-        "Runtime/AdFormats/Fullscreen/ChartboostMediationFullscreenAdIOS.cs.meta",
-        "Runtime/AdFormats/Fullscreen/IChartboostMediationFullscreenAd.cs",
-        "Runtime/AdFormats/Fullscreen/IChartboostMediationFullscreenAd.cs.meta",
-        "Runtime/AssemblyInfo.cs",
-        "Runtime/AssemblyInfo.cs.meta",
-        "Runtime/Banner.meta",
-        "Runtime/Banner/ChartboostMediationBannerAd.cs",
-        "Runtime/Banner/ChartboostMediationBannerAd.cs.meta",
-        "Runtime/Banner/ChartboostMediationBannerAndroid.cs",
-        "Runtime/Banner/ChartboostMediationBannerAndroid.cs.meta",
-        "Runtime/Banner/ChartboostMediationBannerBase.cs",
-        "Runtime/Banner/ChartboostMediationBannerBase.cs.meta",
-        "Runtime/Banner/ChartboostMediationBannerIOS.cs",
-        "Runtime/Banner/ChartboostMediationBannerIOS.cs.meta",
-        "Runtime/Banner/IChartboostMediationBannerAd.cs",
-        "Runtime/Banner/IChartboostMediationBannerAd.cs.meta",
-        "Runtime/Banner/IChartboostMediationBannerEvents.cs",
-        "Runtime/Banner/IChartboostMediationBannerEvents.cs.meta",
-        "Runtime/ChartboostMediation.cs",
-        "Runtime/ChartboostMediation.cs.meta",
-        "Runtime/ChartboostMediationAdapterInfo.cs",
-        "Runtime/ChartboostMediationAdapterInfo.cs.meta",
-        "Runtime/ChartboostMediationSettings.cs",
-        "Runtime/ChartboostMediationSettings.cs.meta",
-        "Runtime/Consent.meta",
-        "Runtime/Consent/IPartnerConsent.cs",
-        "Runtime/Consent/IPartnerConsent.cs.meta",
-        "Runtime/Consent/PartnerConsentAndroid.cs",
-        "Runtime/Consent/PartnerConsentAndroid.cs.meta",
-        "Runtime/Consent/PartnerConsentIOS.cs",
-        "Runtime/Consent/PartnerConsentIOS.cs.meta",
-        "Runtime/Consent/PartnerConsentUnsupported.cs",
-        "Runtime/Consent/PartnerConsentUnsupported.cs.meta",
-        "Runtime/Data.meta",
-        "Runtime/Data/BidInfo.cs",
-        "Runtime/Data/BidInfo.cs.meta",
-        "Runtime/Data/ChartboostMediationError.cs",
-        "Runtime/Data/ChartboostMediationError.cs.meta",
-        "Runtime/Data/Metrics.cs",
-        "Runtime/Data/Metrics.cs.meta",
-        "Runtime/Events.meta",
-        "Runtime/Events/Delegates.cs",
-        "Runtime/Events/Delegates.cs.meta",
-        "Runtime/Events/EventProcessor.cs",
-        "Runtime/Events/EventProcessor.cs.meta",
-        "Runtime/FullScreen.meta",
-        "Runtime/FullScreen/ChartboostMediationFullScreenBase.cs",
-        "Runtime/FullScreen/ChartboostMediationFullScreenBase.cs.meta",
-        "Runtime/FullScreen/IChartboostMediationFullScreenAdOLD.cs",
-        "Runtime/FullScreen/IChartboostMediationFullScreenAdOLD.cs.meta",
-        "Runtime/FullScreen/Interstitial.meta",
-        "Runtime/FullScreen/Interstitial/ChartboostMediationInterstitialAd.cs",
-        "Runtime/FullScreen/Interstitial/ChartboostMediationInterstitialAd.cs.meta",
-        "Runtime/FullScreen/Interstitial/ChartboostMediationInterstitialAndroid.cs",
-        "Runtime/FullScreen/Interstitial/ChartboostMediationInterstitialAndroid.cs.meta",
-        "Runtime/FullScreen/Interstitial/ChartboostMediationInterstitialIOS.cs",
-        "Runtime/FullScreen/Interstitial/ChartboostMediationInterstitialIOS.cs.meta",
-        "Runtime/FullScreen/Interstitial/IChartboostMediationInterstitialEvents.cs",
-        "Runtime/FullScreen/Interstitial/IChartboostMediationInterstitialEvents.cs.meta",
-        "Runtime/FullScreen/Rewarded.meta",
-        "Runtime/FullScreen/Rewarded/ChartboostMediationRewardedAd.cs",
-        "Runtime/FullScreen/Rewarded/ChartboostMediationRewardedAd.cs.meta",
-        "Runtime/FullScreen/Rewarded/ChartboostMediationRewardedAndroid.cs",
-        "Runtime/FullScreen/Rewarded/ChartboostMediationRewardedAndroid.cs.meta",
-        "Runtime/FullScreen/Rewarded/ChartboostMediationRewardedBase.cs",
-        "Runtime/FullScreen/Rewarded/ChartboostMediationRewardedBase.cs.meta",
-        "Runtime/FullScreen/Rewarded/ChartboostMediationRewardedIOS.cs",
-        "Runtime/FullScreen/Rewarded/ChartboostMediationRewardedIOS.cs.meta",
-        "Runtime/FullScreen/Rewarded/IChartBoostMediationRewardedAd.cs",
-        "Runtime/FullScreen/Rewarded/IChartBoostMediationRewardedAd.cs.meta",
-        "Runtime/FullScreen/Rewarded/IChartboostMediationRewardedEvents.cs",
-        "Runtime/FullScreen/Rewarded/IChartboostMediationRewardedEvents.cs.meta",
-        "Runtime/Interfaces.meta",
-        "Runtime/Interfaces/IChartboostMediationAd.cs",
-        "Runtime/Interfaces/IChartboostMediationAd.cs.meta",
-        "Runtime/Interfaces/IChartboostMediationLifeCycle.cs",
-        "Runtime/Interfaces/IChartboostMediationLifeCycle.cs.meta",
-        "Runtime/Partners.cs",
-        "Runtime/Partners.cs.meta",
-        "Runtime/Platforms.meta",
-        "Runtime/Platforms/Android.meta",
-        "Runtime/Platforms/Android/ChartboostMediationAndroid.Callbacks.cs",
-        "Runtime/Platforms/Android/ChartboostMediationAndroid.Callbacks.cs.meta",
-        "Runtime/Platforms/Android/ChartboostMediationAndroid.Legacy.cs",
-        "Runtime/Platforms/Android/ChartboostMediationAndroid.Legacy.cs.meta",
-        "Runtime/Platforms/Android/ChartboostMediationAndroid.cs",
-        "Runtime/Platforms/Android/ChartboostMediationAndroid.cs.meta",
-        "Runtime/Platforms/ChartboostMediationExternal.cs",
-        "Runtime/Platforms/ChartboostMediationExternal.cs.meta",
-        "Runtime/Platforms/ChartboostMediationUnsupported.cs",
-        "Runtime/Platforms/ChartboostMediationUnsupported.cs.meta",
-        "Runtime/Platforms/IOS.meta",
-        "Runtime/Platforms/IOS/ChartboostMediationIOS.Callbacks.cs",
-        "Runtime/Platforms/IOS/ChartboostMediationIOS.Callbacks.cs.meta",
-        "Runtime/Platforms/IOS/ChartboostMediationIOS.Legacy.cs",
-        "Runtime/Platforms/IOS/ChartboostMediationIOS.Legacy.cs.meta",
-        "Runtime/Platforms/IOS/ChartboostMediationIOS.cs",
-        "Runtime/Platforms/IOS/ChartboostMediationIOS.cs.meta",
-        "Runtime/Plugins.meta",
-        "Runtime/Plugins/.DS_Store",
-        "Runtime/Plugins/Android.meta",
-        "Runtime/Plugins/Android/chartboost-mediation-android-bridge.jar",
-        "Runtime/Plugins/Android/chartboost-mediation-android-bridge.jar.meta",
-        "Runtime/Plugins/iOS.meta",
-        "Runtime/Plugins/iOS/.DS_Store",
-        "Runtime/Plugins/iOS/ChartboostMediationBannerAdWrapper.h",
-        "Runtime/Plugins/iOS/ChartboostMediationBannerAdWrapper.h.meta",
-        "Runtime/Plugins/iOS/ChartboostMediationBannerAdWrapper.m",
-        "Runtime/Plugins/iOS/ChartboostMediationBannerAdWrapper.m.meta",
-        "Runtime/Plugins/iOS/ChartboostMediationUnity.swift",
-        "Runtime/Plugins/iOS/ChartboostMediationUnity.swift.meta",
-        "Runtime/Plugins/iOS/ChartboostMediationUnityBridge.mm",
-        "Runtime/Plugins/iOS/ChartboostMediationUnityBridge.mm.meta",
-        "Runtime/Requests.meta",
-        "Runtime/Requests/ChartboostMediationAdLoadRequest.cs",
-        "Runtime/Requests/ChartboostMediationAdLoadRequest.cs.meta",
-        "Runtime/Requests/ChartboostMediationAdShowResult.cs",
-        "Runtime/Requests/ChartboostMediationAdShowResult.cs.meta",
-        "Runtime/Requests/ChartboostMediationBannerAdLoadRequest.cs",
-        "Runtime/Requests/ChartboostMediationBannerAdLoadRequest.cs.meta",
-        "Runtime/Requests/ChartboostMediationBannerAdLoadResult.cs",
-        "Runtime/Requests/ChartboostMediationBannerAdLoadResult.cs.meta",
-        "Runtime/Requests/ChartboostMediationFullscreenAdLoadRequest.cs",
-        "Runtime/Requests/ChartboostMediationFullscreenAdLoadRequest.cs.meta",
-        "Runtime/Requests/ChartboostMediationFullscreenAdLoadResult.cs",
-        "Runtime/Requests/ChartboostMediationFullscreenAdLoadResult.cs.meta",
-        "Runtime/Utilities.meta",
-        "Runtime/Utilities/AndroidAdStore.cs",
-        "Runtime/Utilities/AndroidAdStore.cs.meta",
-        "Runtime/Utilities/AndroidConstants.cs",
-        "Runtime/Utilities/AndroidConstants.cs.meta",
-        "Runtime/Utilities/AndroidExtensions.cs",
-        "Runtime/Utilities/AndroidExtensions.cs.meta",
-        "Runtime/Utilities/AwaitableAndroidJavaProxy.cs",
-        "Runtime/Utilities/AwaitableAndroidJavaProxy.cs.meta",
-        "Runtime/Utilities/CacheManager.cs",
-        "Runtime/Utilities/CacheManager.cs.meta",
-        "Runtime/Utilities/ChartboostMediationConverters.cs",
-        "Runtime/Utilities/ChartboostMediationConverters.cs.meta",
-        "Runtime/Utilities/ChartboostMediationExtensions.cs",
-        "Runtime/Utilities/ChartboostMediationExtensions.cs.meta",
-        "Runtime/Utilities/ChartboostMediationUtils.cs",
-        "Runtime/Utilities/ChartboostMediationUtils.cs.meta",
-        "Runtime/Utilities/DragObject.cs",
-        "Runtime/Utilities/DragObject.cs.meta",
-        "Runtime/Utilities/IOSConstants.cs",
-        "Runtime/Utilities/IOSConstants.cs.meta",
-        "Runtime/Utilities/JsonTools.cs",
-        "Runtime/Utilities/JsonTools.cs.meta",
-        "Runtime/Utilities/Later.cs",
-        "Runtime/Utilities/Later.cs.meta",
-        "Runtime/Utilities/Logger.cs",
-        "Runtime/Utilities/Logger.cs.meta",
-        "Runtime/com.chartboost.mediation.asmdef",
-        "Runtime/com.chartboost.mediation.asmdef.meta",
-        "THIRD_PARTY_NOTICES.md",
-        "THIRD_PARTY_NOTICES.md.meta",
-        "Tests.meta",
-        "Tests/Editor.meta",
-        "Tests/Editor/JsonParseTests.cs",
-        "Tests/Editor/JsonParseTests.cs.meta",
-        "Tests/Editor/Resources.meta",
-        "Tests/Editor/Resources/TestJSON.meta",
-        "Tests/Editor/Resources/TestJSON/.DS_Store",
-        "Tests/Editor/Resources/TestJSON/i_number_double_huge_neg_exp.json",
-        "Tests/Editor/Resources/TestJSON/i_number_double_huge_neg_exp.json.meta",
-        "Tests/Editor/Resources/TestJSON/i_number_huge_exp.json",
-        "Tests/Editor/Resources/TestJSON/i_number_huge_exp.json.meta",
-        "Tests/Editor/Resources/TestJSON/i_number_neg_int_huge_exp.json",
-        "Tests/Editor/Resources/TestJSON/i_number_neg_int_huge_exp.json.meta",
-        "Tests/Editor/Resources/TestJSON/i_number_pos_double_huge_exp.json",
-        "Tests/Editor/Resources/TestJSON/i_number_pos_double_huge_exp.json.meta",
-        "Tests/Editor/Resources/TestJSON/i_number_real_neg_overflow.json",
-        "Tests/Editor/Resources/TestJSON/i_number_real_neg_overflow.json.meta",
-        "Tests/Editor/Resources/TestJSON/i_number_real_pos_overflow.json",
-        "Tests/Editor/Resources/TestJSON/i_number_real_pos_overflow.json.meta",
-        "Tests/Editor/Resources/TestJSON/i_number_real_underflow.json",
-        "Tests/Editor/Resources/TestJSON/i_number_real_underflow.json.meta",
-        "Tests/Editor/Resources/TestJSON/i_number_too_big_neg_int.json",
-        "Tests/Editor/Resources/TestJSON/i_number_too_big_neg_int.json.meta",
-        "Tests/Editor/Resources/TestJSON/i_number_too_big_pos_int.json",
-        "Tests/Editor/Resources/TestJSON/i_number_too_big_pos_int.json.meta",
-        "Tests/Editor/Resources/TestJSON/i_number_very_big_negative_int.json",
-        "Tests/Editor/Resources/TestJSON/i_number_very_big_negative_int.json.meta",
-        "Tests/Editor/Resources/TestJSON/i_object_key_lone_2nd_surrogate.json",
-        "Tests/Editor/Resources/TestJSON/i_object_key_lone_2nd_surrogate.json.meta",
-        "Tests/Editor/Resources/TestJSON/i_string_1st_surrogate_but_2nd_missing.json",
-        "Tests/Editor/Resources/TestJSON/i_string_1st_surrogate_but_2nd_missing.json.meta",
-        "Tests/Editor/Resources/TestJSON/i_string_1st_valid_surrogate_2nd_invalid.json",
-        "Tests/Editor/Resources/TestJSON/i_string_1st_valid_surrogate_2nd_invalid.json.meta",
-        "Tests/Editor/Resources/TestJSON/i_string_UTF-16LE_with_BOM.json",
-        "Tests/Editor/Resources/TestJSON/i_string_UTF-16LE_with_BOM.json.meta",
-        "Tests/Editor/Resources/TestJSON/i_string_UTF-8_invalid_sequence.json",
-        "Tests/Editor/Resources/TestJSON/i_string_UTF-8_invalid_sequence.json.meta",
-        "Tests/Editor/Resources/TestJSON/i_string_UTF8_surrogate_U+D800.json",
-        "Tests/Editor/Resources/TestJSON/i_string_UTF8_surrogate_U+D800.json.meta",
-        "Tests/Editor/Resources/TestJSON/i_string_incomplete_surrogate_and_escape_valid.json",
-        "Tests/Editor/Resources/TestJSON/i_string_incomplete_surrogate_and_escape_valid.json.meta",
-        "Tests/Editor/Resources/TestJSON/i_string_incomplete_surrogate_pair.json",
-        "Tests/Editor/Resources/TestJSON/i_string_incomplete_surrogate_pair.json.meta",
-        "Tests/Editor/Resources/TestJSON/i_string_incomplete_surrogates_escape_valid.json",
-        "Tests/Editor/Resources/TestJSON/i_string_incomplete_surrogates_escape_valid.json.meta",
-        "Tests/Editor/Resources/TestJSON/i_string_invalid_lonely_surrogate.json",
-        "Tests/Editor/Resources/TestJSON/i_string_invalid_lonely_surrogate.json.meta",
-        "Tests/Editor/Resources/TestJSON/i_string_invalid_surrogate.json",
-        "Tests/Editor/Resources/TestJSON/i_string_invalid_surrogate.json.meta",
-        "Tests/Editor/Resources/TestJSON/i_string_invalid_utf-8.json",
-        "Tests/Editor/Resources/TestJSON/i_string_invalid_utf-8.json.meta",
-        "Tests/Editor/Resources/TestJSON/i_string_inverted_surrogates_U+1D11E.json",
-        "Tests/Editor/Resources/TestJSON/i_string_inverted_surrogates_U+1D11E.json.meta",
-        "Tests/Editor/Resources/TestJSON/i_string_iso_latin_1.json",
-        "Tests/Editor/Resources/TestJSON/i_string_iso_latin_1.json.meta",
-        "Tests/Editor/Resources/TestJSON/i_string_lone_second_surrogate.json",
-        "Tests/Editor/Resources/TestJSON/i_string_lone_second_surrogate.json.meta",
-        "Tests/Editor/Resources/TestJSON/i_string_lone_utf8_continuation_byte.json",
-        "Tests/Editor/Resources/TestJSON/i_string_lone_utf8_continuation_byte.json.meta",
-        "Tests/Editor/Resources/TestJSON/i_string_not_in_unicode_range.json",
-        "Tests/Editor/Resources/TestJSON/i_string_not_in_unicode_range.json.meta",
-        "Tests/Editor/Resources/TestJSON/i_string_overlong_sequence_2_bytes.json",
-        "Tests/Editor/Resources/TestJSON/i_string_overlong_sequence_2_bytes.json.meta",
-        "Tests/Editor/Resources/TestJSON/i_string_overlong_sequence_6_bytes.json",
-        "Tests/Editor/Resources/TestJSON/i_string_overlong_sequence_6_bytes.json.meta",
-        "Tests/Editor/Resources/TestJSON/i_string_overlong_sequence_6_bytes_null.json",
-        "Tests/Editor/Resources/TestJSON/i_string_overlong_sequence_6_bytes_null.json.meta",
-        "Tests/Editor/Resources/TestJSON/i_string_truncated-utf-8.json",
-        "Tests/Editor/Resources/TestJSON/i_string_truncated-utf-8.json.meta",
-        "Tests/Editor/Resources/TestJSON/i_string_utf16BE_no_BOM.json",
-        "Tests/Editor/Resources/TestJSON/i_string_utf16BE_no_BOM.json.meta",
-        "Tests/Editor/Resources/TestJSON/i_string_utf16LE_no_BOM.json",
-        "Tests/Editor/Resources/TestJSON/i_string_utf16LE_no_BOM.json.meta",
-        "Tests/Editor/Resources/TestJSON/i_structure_500_nested_arrays.json",
-        "Tests/Editor/Resources/TestJSON/i_structure_500_nested_arrays.json.meta",
-        "Tests/Editor/Resources/TestJSON/i_structure_UTF-8_BOM_empty_object.json",
-        "Tests/Editor/Resources/TestJSON/i_structure_UTF-8_BOM_empty_object.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_array_1_true_without_comma.json",
-        "Tests/Editor/Resources/TestJSON/n_array_1_true_without_comma.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_array_a_invalid_utf8.json",
-        "Tests/Editor/Resources/TestJSON/n_array_a_invalid_utf8.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_array_colon_instead_of_comma.json",
-        "Tests/Editor/Resources/TestJSON/n_array_colon_instead_of_comma.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_array_comma_after_close.json",
-        "Tests/Editor/Resources/TestJSON/n_array_comma_after_close.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_array_extra_close.json",
-        "Tests/Editor/Resources/TestJSON/n_array_extra_close.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_array_incomplete.json",
-        "Tests/Editor/Resources/TestJSON/n_array_incomplete.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_array_incomplete_invalid_value.json",
-        "Tests/Editor/Resources/TestJSON/n_array_incomplete_invalid_value.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_array_inner_array_no_comma.json",
-        "Tests/Editor/Resources/TestJSON/n_array_inner_array_no_comma.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_array_invalid_utf8.json",
-        "Tests/Editor/Resources/TestJSON/n_array_invalid_utf8.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_array_items_separated_by_semicolon.json",
-        "Tests/Editor/Resources/TestJSON/n_array_items_separated_by_semicolon.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_array_just_minus.json",
-        "Tests/Editor/Resources/TestJSON/n_array_just_minus.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_array_newlines_unclosed.json",
-        "Tests/Editor/Resources/TestJSON/n_array_newlines_unclosed.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_array_spaces_vertical_tab_formfeed.json",
-        "Tests/Editor/Resources/TestJSON/n_array_spaces_vertical_tab_formfeed.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_array_star_inside.json",
-        "Tests/Editor/Resources/TestJSON/n_array_star_inside.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_array_unclosed.json",
-        "Tests/Editor/Resources/TestJSON/n_array_unclosed.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_array_unclosed_trailing_comma.json",
-        "Tests/Editor/Resources/TestJSON/n_array_unclosed_trailing_comma.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_array_unclosed_with_new_lines.json",
-        "Tests/Editor/Resources/TestJSON/n_array_unclosed_with_new_lines.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_array_unclosed_with_object_inside.json",
-        "Tests/Editor/Resources/TestJSON/n_array_unclosed_with_object_inside.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_incomplete_false.json",
-        "Tests/Editor/Resources/TestJSON/n_incomplete_false.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_incomplete_null.json",
-        "Tests/Editor/Resources/TestJSON/n_incomplete_null.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_incomplete_true.json",
-        "Tests/Editor/Resources/TestJSON/n_incomplete_true.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_number_++.json",
-        "Tests/Editor/Resources/TestJSON/n_number_++.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_number_+1.json",
-        "Tests/Editor/Resources/TestJSON/n_number_+1.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_number_+Inf.json",
-        "Tests/Editor/Resources/TestJSON/n_number_+Inf.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_number_-1.0..json",
-        "Tests/Editor/Resources/TestJSON/n_number_-1.0..json.meta",
-        "Tests/Editor/Resources/TestJSON/n_number_-NaN.json",
-        "Tests/Editor/Resources/TestJSON/n_number_-NaN.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_number_.-1.json",
-        "Tests/Editor/Resources/TestJSON/n_number_.-1.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_number_0.1.2.json",
-        "Tests/Editor/Resources/TestJSON/n_number_0.1.2.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_number_0.3e+.json",
-        "Tests/Editor/Resources/TestJSON/n_number_0.3e+.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_number_0.3e.json",
-        "Tests/Editor/Resources/TestJSON/n_number_0.3e.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_number_0_capital_E+.json",
-        "Tests/Editor/Resources/TestJSON/n_number_0_capital_E+.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_number_0_capital_E.json",
-        "Tests/Editor/Resources/TestJSON/n_number_0_capital_E.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_number_0e+.json",
-        "Tests/Editor/Resources/TestJSON/n_number_0e+.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_number_0e.json",
-        "Tests/Editor/Resources/TestJSON/n_number_0e.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_number_1.0e+.json",
-        "Tests/Editor/Resources/TestJSON/n_number_1.0e+.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_number_1.0e-.json",
-        "Tests/Editor/Resources/TestJSON/n_number_1.0e-.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_number_1.0e.json",
-        "Tests/Editor/Resources/TestJSON/n_number_1.0e.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_number_1_000.json",
-        "Tests/Editor/Resources/TestJSON/n_number_1_000.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_number_1eE2.json",
-        "Tests/Editor/Resources/TestJSON/n_number_1eE2.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_number_9.e+.json",
-        "Tests/Editor/Resources/TestJSON/n_number_9.e+.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_number_Inf.json",
-        "Tests/Editor/Resources/TestJSON/n_number_Inf.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_number_U+FF11_fullwidth_digit_one.json",
-        "Tests/Editor/Resources/TestJSON/n_number_U+FF11_fullwidth_digit_one.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_number_expression.json",
-        "Tests/Editor/Resources/TestJSON/n_number_expression.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_number_invalid+-.json",
-        "Tests/Editor/Resources/TestJSON/n_number_invalid+-.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_number_invalid-negative-real.json",
-        "Tests/Editor/Resources/TestJSON/n_number_invalid-negative-real.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_number_invalid-utf-8-in-bigger-int.json",
-        "Tests/Editor/Resources/TestJSON/n_number_invalid-utf-8-in-bigger-int.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_number_invalid-utf-8-in-exponent.json",
-        "Tests/Editor/Resources/TestJSON/n_number_invalid-utf-8-in-exponent.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_number_invalid-utf-8-in-int.json",
-        "Tests/Editor/Resources/TestJSON/n_number_invalid-utf-8-in-int.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_number_minus_sign_with_trailing_garbage.json",
-        "Tests/Editor/Resources/TestJSON/n_number_minus_sign_with_trailing_garbage.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_number_minus_space_1.json",
-        "Tests/Editor/Resources/TestJSON/n_number_minus_space_1.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_number_neg_with_garbage_at_end.json",
-        "Tests/Editor/Resources/TestJSON/n_number_neg_with_garbage_at_end.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_number_real_garbage_after_e.json",
-        "Tests/Editor/Resources/TestJSON/n_number_real_garbage_after_e.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_number_real_with_invalid_utf8_after_e.json",
-        "Tests/Editor/Resources/TestJSON/n_number_real_with_invalid_utf8_after_e.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_number_with_alpha.json",
-        "Tests/Editor/Resources/TestJSON/n_number_with_alpha.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_number_with_alpha_char.json",
-        "Tests/Editor/Resources/TestJSON/n_number_with_alpha_char.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_object_bad_value.json",
-        "Tests/Editor/Resources/TestJSON/n_object_bad_value.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_object_bracket_key.json",
-        "Tests/Editor/Resources/TestJSON/n_object_bracket_key.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_object_comma_instead_of_colon.json",
-        "Tests/Editor/Resources/TestJSON/n_object_comma_instead_of_colon.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_object_double_colon.json",
-        "Tests/Editor/Resources/TestJSON/n_object_double_colon.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_object_emoji.json",
-        "Tests/Editor/Resources/TestJSON/n_object_emoji.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_object_garbage_at_end.json",
-        "Tests/Editor/Resources/TestJSON/n_object_garbage_at_end.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_object_missing_colon.json",
-        "Tests/Editor/Resources/TestJSON/n_object_missing_colon.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_object_missing_key.json",
-        "Tests/Editor/Resources/TestJSON/n_object_missing_key.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_object_missing_semicolon.json",
-        "Tests/Editor/Resources/TestJSON/n_object_missing_semicolon.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_object_missing_value.json",
-        "Tests/Editor/Resources/TestJSON/n_object_missing_value.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_object_no-colon.json",
-        "Tests/Editor/Resources/TestJSON/n_object_no-colon.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_object_several_trailing_commas.json",
-        "Tests/Editor/Resources/TestJSON/n_object_several_trailing_commas.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_object_trailing_comment_open.json",
-        "Tests/Editor/Resources/TestJSON/n_object_trailing_comment_open.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_object_trailing_comment_slash_open.json",
-        "Tests/Editor/Resources/TestJSON/n_object_trailing_comment_slash_open.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_object_trailing_comment_slash_open_incomplete.json",
-        "Tests/Editor/Resources/TestJSON/n_object_trailing_comment_slash_open_incomplete.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_object_two_commas_in_a_row.json",
-        "Tests/Editor/Resources/TestJSON/n_object_two_commas_in_a_row.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_object_unterminated-value.json",
-        "Tests/Editor/Resources/TestJSON/n_object_unterminated-value.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_object_with_single_string.json",
-        "Tests/Editor/Resources/TestJSON/n_object_with_single_string.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_object_with_trailing_garbage.json",
-        "Tests/Editor/Resources/TestJSON/n_object_with_trailing_garbage.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_single_space.json",
-        "Tests/Editor/Resources/TestJSON/n_single_space.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_string_1_surrogate_then_escape.json",
-        "Tests/Editor/Resources/TestJSON/n_string_1_surrogate_then_escape.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_string_1_surrogate_then_escape_u.json",
-        "Tests/Editor/Resources/TestJSON/n_string_1_surrogate_then_escape_u.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_string_1_surrogate_then_escape_u1.json",
-        "Tests/Editor/Resources/TestJSON/n_string_1_surrogate_then_escape_u1.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_string_1_surrogate_then_escape_u1x.json",
-        "Tests/Editor/Resources/TestJSON/n_string_1_surrogate_then_escape_u1x.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_string_accentuated_char_no_quotes.json",
-        "Tests/Editor/Resources/TestJSON/n_string_accentuated_char_no_quotes.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_string_backslash_00.json",
-        "Tests/Editor/Resources/TestJSON/n_string_backslash_00.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_string_escape_x.json",
-        "Tests/Editor/Resources/TestJSON/n_string_escape_x.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_string_escaped_backslash_bad.json",
-        "Tests/Editor/Resources/TestJSON/n_string_escaped_backslash_bad.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_string_escaped_ctrl_char_tab.json",
-        "Tests/Editor/Resources/TestJSON/n_string_escaped_ctrl_char_tab.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_string_escaped_emoji.json",
-        "Tests/Editor/Resources/TestJSON/n_string_escaped_emoji.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_string_incomplete_escape.json",
-        "Tests/Editor/Resources/TestJSON/n_string_incomplete_escape.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_string_incomplete_escaped_character.json",
-        "Tests/Editor/Resources/TestJSON/n_string_incomplete_escaped_character.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_string_incomplete_surrogate.json",
-        "Tests/Editor/Resources/TestJSON/n_string_incomplete_surrogate.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_string_incomplete_surrogate_escape_invalid.json",
-        "Tests/Editor/Resources/TestJSON/n_string_incomplete_surrogate_escape_invalid.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_string_invalid-utf-8-in-escape.json",
-        "Tests/Editor/Resources/TestJSON/n_string_invalid-utf-8-in-escape.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_string_invalid_backslash_esc.json",
-        "Tests/Editor/Resources/TestJSON/n_string_invalid_backslash_esc.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_string_invalid_unicode_escape.json",
-        "Tests/Editor/Resources/TestJSON/n_string_invalid_unicode_escape.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_string_invalid_utf8_after_escape.json",
-        "Tests/Editor/Resources/TestJSON/n_string_invalid_utf8_after_escape.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_string_leading_uescaped_thinspace.json",
-        "Tests/Editor/Resources/TestJSON/n_string_leading_uescaped_thinspace.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_string_no_quotes_with_bad_escape.json",
-        "Tests/Editor/Resources/TestJSON/n_string_no_quotes_with_bad_escape.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_string_single_doublequote.json",
-        "Tests/Editor/Resources/TestJSON/n_string_single_doublequote.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_string_single_string_no_double_quotes.json",
-        "Tests/Editor/Resources/TestJSON/n_string_single_string_no_double_quotes.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_string_start_escape_unclosed.json",
-        "Tests/Editor/Resources/TestJSON/n_string_start_escape_unclosed.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_string_unicode_CapitalU.json",
-        "Tests/Editor/Resources/TestJSON/n_string_unicode_CapitalU.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_string_with_trailing_garbage.json",
-        "Tests/Editor/Resources/TestJSON/n_string_with_trailing_garbage.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_structure_100000_opening_arrays.json",
-        "Tests/Editor/Resources/TestJSON/n_structure_100000_opening_arrays.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_structure_U+2060_word_joined.json",
-        "Tests/Editor/Resources/TestJSON/n_structure_U+2060_word_joined.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_structure_UTF8_BOM_no_data.json",
-        "Tests/Editor/Resources/TestJSON/n_structure_UTF8_BOM_no_data.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_structure_angle_bracket_..json",
-        "Tests/Editor/Resources/TestJSON/n_structure_angle_bracket_..json.meta",
-        "Tests/Editor/Resources/TestJSON/n_structure_angle_bracket_null.json",
-        "Tests/Editor/Resources/TestJSON/n_structure_angle_bracket_null.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_structure_array_trailing_garbage.json",
-        "Tests/Editor/Resources/TestJSON/n_structure_array_trailing_garbage.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_structure_array_with_extra_array_close.json",
-        "Tests/Editor/Resources/TestJSON/n_structure_array_with_extra_array_close.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_structure_array_with_unclosed_string.json",
-        "Tests/Editor/Resources/TestJSON/n_structure_array_with_unclosed_string.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_structure_ascii-unicode-identifier.json",
-        "Tests/Editor/Resources/TestJSON/n_structure_ascii-unicode-identifier.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_structure_capitalized_True.json",
-        "Tests/Editor/Resources/TestJSON/n_structure_capitalized_True.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_structure_close_unopened_array.json",
-        "Tests/Editor/Resources/TestJSON/n_structure_close_unopened_array.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_structure_comma_instead_of_closing_brace.json",
-        "Tests/Editor/Resources/TestJSON/n_structure_comma_instead_of_closing_brace.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_structure_double_array.json",
-        "Tests/Editor/Resources/TestJSON/n_structure_double_array.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_structure_end_array.json",
-        "Tests/Editor/Resources/TestJSON/n_structure_end_array.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_structure_incomplete_UTF8_BOM.json",
-        "Tests/Editor/Resources/TestJSON/n_structure_incomplete_UTF8_BOM.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_structure_lone-invalid-utf-8.json",
-        "Tests/Editor/Resources/TestJSON/n_structure_lone-invalid-utf-8.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_structure_lone-open-bracket.json",
-        "Tests/Editor/Resources/TestJSON/n_structure_lone-open-bracket.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_structure_no_data.json",
-        "Tests/Editor/Resources/TestJSON/n_structure_no_data.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_structure_number_with_trailing_garbage.json",
-        "Tests/Editor/Resources/TestJSON/n_structure_number_with_trailing_garbage.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_structure_object_followed_by_closing_object.json",
-        "Tests/Editor/Resources/TestJSON/n_structure_object_followed_by_closing_object.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_structure_object_unclosed_no_value.json",
-        "Tests/Editor/Resources/TestJSON/n_structure_object_unclosed_no_value.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_structure_object_with_trailing_garbage.json",
-        "Tests/Editor/Resources/TestJSON/n_structure_object_with_trailing_garbage.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_structure_open_array_apostrophe.json",
-        "Tests/Editor/Resources/TestJSON/n_structure_open_array_apostrophe.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_structure_open_array_comma.json",
-        "Tests/Editor/Resources/TestJSON/n_structure_open_array_comma.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_structure_open_array_object.json",
-        "Tests/Editor/Resources/TestJSON/n_structure_open_array_object.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_structure_open_array_open_object.json",
-        "Tests/Editor/Resources/TestJSON/n_structure_open_array_open_object.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_structure_open_array_open_string.json",
-        "Tests/Editor/Resources/TestJSON/n_structure_open_array_open_string.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_structure_open_array_string.json",
-        "Tests/Editor/Resources/TestJSON/n_structure_open_array_string.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_structure_open_object.json",
-        "Tests/Editor/Resources/TestJSON/n_structure_open_object.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_structure_open_object_close_array.json",
-        "Tests/Editor/Resources/TestJSON/n_structure_open_object_close_array.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_structure_open_object_comma.json",
-        "Tests/Editor/Resources/TestJSON/n_structure_open_object_comma.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_structure_open_object_open_array.json",
-        "Tests/Editor/Resources/TestJSON/n_structure_open_object_open_array.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_structure_open_object_open_string.json",
-        "Tests/Editor/Resources/TestJSON/n_structure_open_object_open_string.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_structure_open_object_string_with_apostrophes.json",
-        "Tests/Editor/Resources/TestJSON/n_structure_open_object_string_with_apostrophes.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_structure_open_open.json",
-        "Tests/Editor/Resources/TestJSON/n_structure_open_open.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_structure_single_eacute.json",
-        "Tests/Editor/Resources/TestJSON/n_structure_single_eacute.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_structure_single_star.json",
-        "Tests/Editor/Resources/TestJSON/n_structure_single_star.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_structure_trailing_#.json",
-        "Tests/Editor/Resources/TestJSON/n_structure_trailing_#.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_structure_uescaped_LF_before_string.json",
-        "Tests/Editor/Resources/TestJSON/n_structure_uescaped_LF_before_string.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_structure_unclosed_array.json",
-        "Tests/Editor/Resources/TestJSON/n_structure_unclosed_array.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_structure_unclosed_array_partial_null.json",
-        "Tests/Editor/Resources/TestJSON/n_structure_unclosed_array_partial_null.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_structure_unclosed_array_unfinished_false.json",
-        "Tests/Editor/Resources/TestJSON/n_structure_unclosed_array_unfinished_false.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_structure_unclosed_array_unfinished_true.json",
-        "Tests/Editor/Resources/TestJSON/n_structure_unclosed_array_unfinished_true.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_structure_unclosed_object.json",
-        "Tests/Editor/Resources/TestJSON/n_structure_unclosed_object.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_structure_unicode-identifier.json",
-        "Tests/Editor/Resources/TestJSON/n_structure_unicode-identifier.json.meta",
-        "Tests/Editor/Resources/TestJSON/n_structure_whitespace_U+2060_word_joiner.json",
-        "Tests/Editor/Resources/TestJSON/n_structure_whitespace_U+2060_word_joiner.json.meta",
-        "Tests/Editor/Resources/TestJSON/x_n_array_comma_and_number.json",
-        "Tests/Editor/Resources/TestJSON/x_n_array_comma_and_number.json.meta",
-        "Tests/Editor/Resources/TestJSON/x_n_array_double_comma.json",
-        "Tests/Editor/Resources/TestJSON/x_n_array_double_comma.json.meta",
-        "Tests/Editor/Resources/TestJSON/x_n_array_double_extra_comma.json",
-        "Tests/Editor/Resources/TestJSON/x_n_array_double_extra_comma.json.meta",
-        "Tests/Editor/Resources/TestJSON/x_n_array_extra_comma.json",
-        "Tests/Editor/Resources/TestJSON/x_n_array_extra_comma.json.meta",
-        "Tests/Editor/Resources/TestJSON/x_n_array_just_comma.json",
-        "Tests/Editor/Resources/TestJSON/x_n_array_just_comma.json.meta",
-        "Tests/Editor/Resources/TestJSON/x_n_array_missing_value.json",
-        "Tests/Editor/Resources/TestJSON/x_n_array_missing_value.json.meta",
-        "Tests/Editor/Resources/TestJSON/x_n_array_number_and_comma.json",
-        "Tests/Editor/Resources/TestJSON/x_n_array_number_and_comma.json.meta",
-        "Tests/Editor/Resources/TestJSON/x_n_array_number_and_several_commas.json",
-        "Tests/Editor/Resources/TestJSON/x_n_array_number_and_several_commas.json.meta",
-        "Tests/Editor/Resources/TestJSON/x_n_multidigit_number_then_00.json",
-        "Tests/Editor/Resources/TestJSON/x_n_multidigit_number_then_00.json.meta",
-        "Tests/Editor/Resources/TestJSON/x_n_number_-01.json",
-        "Tests/Editor/Resources/TestJSON/x_n_number_-01.json.meta",
-        "Tests/Editor/Resources/TestJSON/x_n_number_-2..json",
-        "Tests/Editor/Resources/TestJSON/x_n_number_-2..json.meta",
-        "Tests/Editor/Resources/TestJSON/x_n_number_.2e-3.json",
-        "Tests/Editor/Resources/TestJSON/x_n_number_.2e-3.json.meta",
-        "Tests/Editor/Resources/TestJSON/x_n_number_0.e1.json",
-        "Tests/Editor/Resources/TestJSON/x_n_number_0.e1.json.meta",
-        "Tests/Editor/Resources/TestJSON/x_n_number_2.e+3.json",
-        "Tests/Editor/Resources/TestJSON/x_n_number_2.e+3.json.meta",
-        "Tests/Editor/Resources/TestJSON/x_n_number_2.e-3.json",
-        "Tests/Editor/Resources/TestJSON/x_n_number_2.e-3.json.meta",
-        "Tests/Editor/Resources/TestJSON/x_n_number_2.e3.json",
-        "Tests/Editor/Resources/TestJSON/x_n_number_2.e3.json.meta",
-        "Tests/Editor/Resources/TestJSON/x_n_number_NaN.json",
-        "Tests/Editor/Resources/TestJSON/x_n_number_NaN.json.meta",
-        "Tests/Editor/Resources/TestJSON/x_n_number_hex_1_digit.json",
-        "Tests/Editor/Resources/TestJSON/x_n_number_hex_1_digit.json.meta",
-        "Tests/Editor/Resources/TestJSON/x_n_number_hex_2_digits.json",
-        "Tests/Editor/Resources/TestJSON/x_n_number_hex_2_digits.json.meta",
-        "Tests/Editor/Resources/TestJSON/x_n_number_infinity.json",
-        "Tests/Editor/Resources/TestJSON/x_n_number_infinity.json.meta",
-        "Tests/Editor/Resources/TestJSON/x_n_number_minus_infinity.json",
-        "Tests/Editor/Resources/TestJSON/x_n_number_minus_infinity.json.meta",
-        "Tests/Editor/Resources/TestJSON/x_n_number_neg_int_starting_with_zero.json",
-        "Tests/Editor/Resources/TestJSON/x_n_number_neg_int_starting_with_zero.json.meta",
-        "Tests/Editor/Resources/TestJSON/x_n_number_neg_real_without_int_part.json",
-        "Tests/Editor/Resources/TestJSON/x_n_number_neg_real_without_int_part.json.meta",
-        "Tests/Editor/Resources/TestJSON/x_n_number_real_without_fractional_part.json",
-        "Tests/Editor/Resources/TestJSON/x_n_number_real_without_fractional_part.json.meta",
-        "Tests/Editor/Resources/TestJSON/x_n_number_starting_with_dot.json",
-        "Tests/Editor/Resources/TestJSON/x_n_number_starting_with_dot.json.meta",
-        "Tests/Editor/Resources/TestJSON/x_n_number_with_leading_zero.json",
-        "Tests/Editor/Resources/TestJSON/x_n_number_with_leading_zero.json.meta",
-        "Tests/Editor/Resources/TestJSON/x_n_object_key_with_single_quotes.json",
-        "Tests/Editor/Resources/TestJSON/x_n_object_key_with_single_quotes.json.meta",
-        "Tests/Editor/Resources/TestJSON/x_n_object_lone_continuation_byte_in_key_and_trailing_comma.json",
-        "Tests/Editor/Resources/TestJSON/x_n_object_lone_continuation_byte_in_key_and_trailing_comma.json.meta",
-        "Tests/Editor/Resources/TestJSON/x_n_object_non_string_key.json",
-        "Tests/Editor/Resources/TestJSON/x_n_object_non_string_key.json.meta",
-        "Tests/Editor/Resources/TestJSON/x_n_object_non_string_key_but_huge_number_instead.json",
-        "Tests/Editor/Resources/TestJSON/x_n_object_non_string_key_but_huge_number_instead.json.meta",
-        "Tests/Editor/Resources/TestJSON/x_n_object_repeated_null_null.json",
-        "Tests/Editor/Resources/TestJSON/x_n_object_repeated_null_null.json.meta",
-        "Tests/Editor/Resources/TestJSON/x_n_object_single_quote.json",
-        "Tests/Editor/Resources/TestJSON/x_n_object_single_quote.json.meta",
-        "Tests/Editor/Resources/TestJSON/x_n_object_trailing_comma.json",
-        "Tests/Editor/Resources/TestJSON/x_n_object_trailing_comma.json.meta",
-        "Tests/Editor/Resources/TestJSON/x_n_object_trailing_comment.json",
-        "Tests/Editor/Resources/TestJSON/x_n_object_trailing_comment.json.meta",
-        "Tests/Editor/Resources/TestJSON/x_n_object_unquoted_key.json",
-        "Tests/Editor/Resources/TestJSON/x_n_object_unquoted_key.json.meta",
-        "Tests/Editor/Resources/TestJSON/x_n_string_single_quote.json",
-        "Tests/Editor/Resources/TestJSON/x_n_string_single_quote.json.meta",
-        "Tests/Editor/Resources/TestJSON/x_n_string_unescaped_ctrl_char.json",
-        "Tests/Editor/Resources/TestJSON/x_n_string_unescaped_ctrl_char.json.meta",
-        "Tests/Editor/Resources/TestJSON/x_n_string_unescaped_newline.json",
-        "Tests/Editor/Resources/TestJSON/x_n_string_unescaped_newline.json.meta",
-        "Tests/Editor/Resources/TestJSON/x_n_string_unescaped_tab.json",
-        "Tests/Editor/Resources/TestJSON/x_n_string_unescaped_tab.json.meta",
-        "Tests/Editor/Resources/TestJSON/x_n_structure_null-byte-outside-string.json",
-        "Tests/Editor/Resources/TestJSON/x_n_structure_null-byte-outside-string.json.meta",
-        "Tests/Editor/Resources/TestJSON/x_n_structure_object_with_comment.json",
-        "Tests/Editor/Resources/TestJSON/x_n_structure_object_with_comment.json.meta",
-        "Tests/Editor/Resources/TestJSON/x_n_structure_whitespace_formfeed.json",
-        "Tests/Editor/Resources/TestJSON/x_n_structure_whitespace_formfeed.json.meta",
-        "Tests/Editor/Resources/TestJSON/y_array_arraysWithSpaces.json",
-        "Tests/Editor/Resources/TestJSON/y_array_arraysWithSpaces.json.meta",
-        "Tests/Editor/Resources/TestJSON/y_array_empty-string.json",
-        "Tests/Editor/Resources/TestJSON/y_array_empty-string.json.meta",
-        "Tests/Editor/Resources/TestJSON/y_array_empty.json",
-        "Tests/Editor/Resources/TestJSON/y_array_empty.json.meta",
-        "Tests/Editor/Resources/TestJSON/y_array_ending_with_newline.json",
-        "Tests/Editor/Resources/TestJSON/y_array_ending_with_newline.json.meta",
-        "Tests/Editor/Resources/TestJSON/y_array_false.json",
-        "Tests/Editor/Resources/TestJSON/y_array_false.json.meta",
-        "Tests/Editor/Resources/TestJSON/y_array_heterogeneous.json",
-        "Tests/Editor/Resources/TestJSON/y_array_heterogeneous.json.meta",
-        "Tests/Editor/Resources/TestJSON/y_array_null.json",
-        "Tests/Editor/Resources/TestJSON/y_array_null.json.meta",
-        "Tests/Editor/Resources/TestJSON/y_array_with_1_and_newline.json",
-        "Tests/Editor/Resources/TestJSON/y_array_with_1_and_newline.json.meta",
-        "Tests/Editor/Resources/TestJSON/y_array_with_leading_space.json",
-        "Tests/Editor/Resources/TestJSON/y_array_with_leading_space.json.meta",
-        "Tests/Editor/Resources/TestJSON/y_array_with_several_null.json",
-        "Tests/Editor/Resources/TestJSON/y_array_with_several_null.json.meta",
-        "Tests/Editor/Resources/TestJSON/y_array_with_trailing_space.json",
-        "Tests/Editor/Resources/TestJSON/y_array_with_trailing_space.json.meta",
-        "Tests/Editor/Resources/TestJSON/y_number.json",
-        "Tests/Editor/Resources/TestJSON/y_number.json.meta",
-        "Tests/Editor/Resources/TestJSON/y_number_0e+1.json",
-        "Tests/Editor/Resources/TestJSON/y_number_0e+1.json.meta",
-        "Tests/Editor/Resources/TestJSON/y_number_0e1.json",
-        "Tests/Editor/Resources/TestJSON/y_number_0e1.json.meta",
-        "Tests/Editor/Resources/TestJSON/y_number_after_space.json",
-        "Tests/Editor/Resources/TestJSON/y_number_after_space.json.meta",
-        "Tests/Editor/Resources/TestJSON/y_number_double_close_to_zero.json",
-        "Tests/Editor/Resources/TestJSON/y_number_double_close_to_zero.json.meta",
-        "Tests/Editor/Resources/TestJSON/y_number_int_with_exp.json",
-        "Tests/Editor/Resources/TestJSON/y_number_int_with_exp.json.meta",
-        "Tests/Editor/Resources/TestJSON/y_number_minus_zero.json",
-        "Tests/Editor/Resources/TestJSON/y_number_minus_zero.json.meta",
-        "Tests/Editor/Resources/TestJSON/y_number_negative_int.json",
-        "Tests/Editor/Resources/TestJSON/y_number_negative_int.json.meta",
-        "Tests/Editor/Resources/TestJSON/y_number_negative_one.json",
-        "Tests/Editor/Resources/TestJSON/y_number_negative_one.json.meta",
-        "Tests/Editor/Resources/TestJSON/y_number_negative_zero.json",
-        "Tests/Editor/Resources/TestJSON/y_number_negative_zero.json.meta",
-        "Tests/Editor/Resources/TestJSON/y_number_real_capital_e.json",
-        "Tests/Editor/Resources/TestJSON/y_number_real_capital_e.json.meta",
-        "Tests/Editor/Resources/TestJSON/y_number_real_capital_e_neg_exp.json",
-        "Tests/Editor/Resources/TestJSON/y_number_real_capital_e_neg_exp.json.meta",
-        "Tests/Editor/Resources/TestJSON/y_number_real_capital_e_pos_exp.json",
-        "Tests/Editor/Resources/TestJSON/y_number_real_capital_e_pos_exp.json.meta",
-        "Tests/Editor/Resources/TestJSON/y_number_real_exponent.json",
-        "Tests/Editor/Resources/TestJSON/y_number_real_exponent.json.meta",
-        "Tests/Editor/Resources/TestJSON/y_number_real_fraction_exponent.json",
-        "Tests/Editor/Resources/TestJSON/y_number_real_fraction_exponent.json.meta",
-        "Tests/Editor/Resources/TestJSON/y_number_real_neg_exp.json",
-        "Tests/Editor/Resources/TestJSON/y_number_real_neg_exp.json.meta",
-        "Tests/Editor/Resources/TestJSON/y_number_real_pos_exponent.json",
-        "Tests/Editor/Resources/TestJSON/y_number_real_pos_exponent.json.meta",
-        "Tests/Editor/Resources/TestJSON/y_number_simple_int.json",
-        "Tests/Editor/Resources/TestJSON/y_number_simple_int.json.meta",
-        "Tests/Editor/Resources/TestJSON/y_number_simple_real.json",
-        "Tests/Editor/Resources/TestJSON/y_number_simple_real.json.meta",
-        "Tests/Editor/Resources/TestJSON/y_object.json",
-        "Tests/Editor/Resources/TestJSON/y_object.json.meta",
-        "Tests/Editor/Resources/TestJSON/y_object_basic.json",
-        "Tests/Editor/Resources/TestJSON/y_object_basic.json.meta",
-        "Tests/Editor/Resources/TestJSON/y_object_duplicated_key.json",
-        "Tests/Editor/Resources/TestJSON/y_object_duplicated_key.json.meta",
-        "Tests/Editor/Resources/TestJSON/y_object_duplicated_key_and_value.json",
-        "Tests/Editor/Resources/TestJSON/y_object_duplicated_key_and_value.json.meta",
-        "Tests/Editor/Resources/TestJSON/y_object_empty.json",
-        "Tests/Editor/Resources/TestJSON/y_object_empty.json.meta",
-        "Tests/Editor/Resources/TestJSON/y_object_empty_key.json",
-        "Tests/Editor/Resources/TestJSON/y_object_empty_key.json.meta",
-        "Tests/Editor/Resources/TestJSON/y_object_escaped_null_in_key.json",
-        "Tests/Editor/Resources/TestJSON/y_object_escaped_null_in_key.json.meta",
-        "Tests/Editor/Resources/TestJSON/y_object_extreme_numbers.json",
-        "Tests/Editor/Resources/TestJSON/y_object_extreme_numbers.json.meta",
-        "Tests/Editor/Resources/TestJSON/y_object_long_strings.json",
-        "Tests/Editor/Resources/TestJSON/y_object_long_strings.json.meta",
-        "Tests/Editor/Resources/TestJSON/y_object_simple.json",
-        "Tests/Editor/Resources/TestJSON/y_object_simple.json.meta",
-        "Tests/Editor/Resources/TestJSON/y_object_string_unicode.json",
-        "Tests/Editor/Resources/TestJSON/y_object_string_unicode.json.meta",
-        "Tests/Editor/Resources/TestJSON/y_object_with_newlines.json",
-        "Tests/Editor/Resources/TestJSON/y_object_with_newlines.json.meta",
-        "Tests/Editor/Resources/TestJSON/y_string_1_2_3_bytes_UTF-8_sequences.json",
-        "Tests/Editor/Resources/TestJSON/y_string_1_2_3_bytes_UTF-8_sequences.json.meta",
-        "Tests/Editor/Resources/TestJSON/y_string_accepted_surrogate_pair.json",
-        "Tests/Editor/Resources/TestJSON/y_string_accepted_surrogate_pair.json.meta",
-        "Tests/Editor/Resources/TestJSON/y_string_accepted_surrogate_pairs.json",
-        "Tests/Editor/Resources/TestJSON/y_string_accepted_surrogate_pairs.json.meta",
-        "Tests/Editor/Resources/TestJSON/y_string_allowed_escapes.json",
-        "Tests/Editor/Resources/TestJSON/y_string_allowed_escapes.json.meta",
-        "Tests/Editor/Resources/TestJSON/y_string_backslash_and_u_escaped_zero.json",
-        "Tests/Editor/Resources/TestJSON/y_string_backslash_and_u_escaped_zero.json.meta",
-        "Tests/Editor/Resources/TestJSON/y_string_backslash_doublequotes.json",
-        "Tests/Editor/Resources/TestJSON/y_string_backslash_doublequotes.json.meta",
-        "Tests/Editor/Resources/TestJSON/y_string_comments.json",
-        "Tests/Editor/Resources/TestJSON/y_string_comments.json.meta",
-        "Tests/Editor/Resources/TestJSON/y_string_double_escape_a.json",
-        "Tests/Editor/Resources/TestJSON/y_string_double_escape_a.json.meta",
-        "Tests/Editor/Resources/TestJSON/y_string_double_escape_n.json",
-        "Tests/Editor/Resources/TestJSON/y_string_double_escape_n.json.meta",
-        "Tests/Editor/Resources/TestJSON/y_string_escaped_control_character.json",
-        "Tests/Editor/Resources/TestJSON/y_string_escaped_control_character.json.meta",
-        "Tests/Editor/Resources/TestJSON/y_string_escaped_noncharacter.json",
-        "Tests/Editor/Resources/TestJSON/y_string_escaped_noncharacter.json.meta",
-        "Tests/Editor/Resources/TestJSON/y_string_in_array.json",
-        "Tests/Editor/Resources/TestJSON/y_string_in_array.json.meta",
-        "Tests/Editor/Resources/TestJSON/y_string_in_array_with_leading_space.json",
-        "Tests/Editor/Resources/TestJSON/y_string_in_array_with_leading_space.json.meta",
-        "Tests/Editor/Resources/TestJSON/y_string_last_surrogates_1_and_2.json",
-        "Tests/Editor/Resources/TestJSON/y_string_last_surrogates_1_and_2.json.meta",
-        "Tests/Editor/Resources/TestJSON/y_string_nbsp_uescaped.json",
-        "Tests/Editor/Resources/TestJSON/y_string_nbsp_uescaped.json.meta",
-        "Tests/Editor/Resources/TestJSON/y_string_nonCharacterInUTF-8_U+10FFFF.json",
-        "Tests/Editor/Resources/TestJSON/y_string_nonCharacterInUTF-8_U+10FFFF.json.meta",
-        "Tests/Editor/Resources/TestJSON/y_string_nonCharacterInUTF-8_U+FFFF.json",
-        "Tests/Editor/Resources/TestJSON/y_string_nonCharacterInUTF-8_U+FFFF.json.meta",
-        "Tests/Editor/Resources/TestJSON/y_string_null_escape.json",
-        "Tests/Editor/Resources/TestJSON/y_string_null_escape.json.meta",
-        "Tests/Editor/Resources/TestJSON/y_string_one-byte-utf-8.json",
-        "Tests/Editor/Resources/TestJSON/y_string_one-byte-utf-8.json.meta",
-        "Tests/Editor/Resources/TestJSON/y_string_pi.json",
-        "Tests/Editor/Resources/TestJSON/y_string_pi.json.meta",
-        "Tests/Editor/Resources/TestJSON/y_string_reservedCharacterInUTF-8_U+1BFFF.json",
-        "Tests/Editor/Resources/TestJSON/y_string_reservedCharacterInUTF-8_U+1BFFF.json.meta",
-        "Tests/Editor/Resources/TestJSON/y_string_simple_ascii.json",
-        "Tests/Editor/Resources/TestJSON/y_string_simple_ascii.json.meta",
-        "Tests/Editor/Resources/TestJSON/y_string_space.json",
-        "Tests/Editor/Resources/TestJSON/y_string_space.json.meta",
-        "Tests/Editor/Resources/TestJSON/y_string_surrogates_U+1D11E_MUSICAL_SYMBOL_G_CLEF.json",
-        "Tests/Editor/Resources/TestJSON/y_string_surrogates_U+1D11E_MUSICAL_SYMBOL_G_CLEF.json.meta",
-        "Tests/Editor/Resources/TestJSON/y_string_three-byte-utf-8.json",
-        "Tests/Editor/Resources/TestJSON/y_string_three-byte-utf-8.json.meta",
-        "Tests/Editor/Resources/TestJSON/y_string_two-byte-utf-8.json",
-        "Tests/Editor/Resources/TestJSON/y_string_two-byte-utf-8.json.meta",
-        "Tests/Editor/Resources/TestJSON/y_string_u+2028_line_sep.json",
-        "Tests/Editor/Resources/TestJSON/y_string_u+2028_line_sep.json.meta",
-        "Tests/Editor/Resources/TestJSON/y_string_u+2029_par_sep.json",
-        "Tests/Editor/Resources/TestJSON/y_string_u+2029_par_sep.json.meta",
-        "Tests/Editor/Resources/TestJSON/y_string_uEscape.json",
-        "Tests/Editor/Resources/TestJSON/y_string_uEscape.json.meta",
-        "Tests/Editor/Resources/TestJSON/y_string_uescaped_newline.json",
-        "Tests/Editor/Resources/TestJSON/y_string_uescaped_newline.json.meta",
-        "Tests/Editor/Resources/TestJSON/y_string_unescaped_char_delete.json",
-        "Tests/Editor/Resources/TestJSON/y_string_unescaped_char_delete.json.meta",
-        "Tests/Editor/Resources/TestJSON/y_string_unicode.json",
-        "Tests/Editor/Resources/TestJSON/y_string_unicode.json.meta",
-        "Tests/Editor/Resources/TestJSON/y_string_unicodeEscapedBackslash.json",
-        "Tests/Editor/Resources/TestJSON/y_string_unicodeEscapedBackslash.json.meta",
-        "Tests/Editor/Resources/TestJSON/y_string_unicode_2.json",
-        "Tests/Editor/Resources/TestJSON/y_string_unicode_2.json.meta",
-        "Tests/Editor/Resources/TestJSON/y_string_unicode_U+10FFFE_nonchar.json",
-        "Tests/Editor/Resources/TestJSON/y_string_unicode_U+10FFFE_nonchar.json.meta",
-        "Tests/Editor/Resources/TestJSON/y_string_unicode_U+1FFFE_nonchar.json",
-        "Tests/Editor/Resources/TestJSON/y_string_unicode_U+1FFFE_nonchar.json.meta",
-        "Tests/Editor/Resources/TestJSON/y_string_unicode_U+200B_ZERO_WIDTH_SPACE.json",
-        "Tests/Editor/Resources/TestJSON/y_string_unicode_U+200B_ZERO_WIDTH_SPACE.json.meta",
-        "Tests/Editor/Resources/TestJSON/y_string_unicode_U+2064_invisible_plus.json",
-        "Tests/Editor/Resources/TestJSON/y_string_unicode_U+2064_invisible_plus.json.meta",
-        "Tests/Editor/Resources/TestJSON/y_string_unicode_U+FDD0_nonchar.json",
-        "Tests/Editor/Resources/TestJSON/y_string_unicode_U+FDD0_nonchar.json.meta",
-        "Tests/Editor/Resources/TestJSON/y_string_unicode_U+FFFE_nonchar.json",
-        "Tests/Editor/Resources/TestJSON/y_string_unicode_U+FFFE_nonchar.json.meta",
-        "Tests/Editor/Resources/TestJSON/y_string_unicode_escaped_double_quote.json",
-        "Tests/Editor/Resources/TestJSON/y_string_unicode_escaped_double_quote.json.meta",
-        "Tests/Editor/Resources/TestJSON/y_string_utf8.json",
-        "Tests/Editor/Resources/TestJSON/y_string_utf8.json.meta",
-        "Tests/Editor/Resources/TestJSON/y_string_with_del_character.json",
-        "Tests/Editor/Resources/TestJSON/y_string_with_del_character.json.meta",
-        "Tests/Editor/Resources/TestJSON/y_structure_lonely_false.json",
-        "Tests/Editor/Resources/TestJSON/y_structure_lonely_false.json.meta",
-        "Tests/Editor/Resources/TestJSON/y_structure_lonely_int.json",
-        "Tests/Editor/Resources/TestJSON/y_structure_lonely_int.json.meta",
-        "Tests/Editor/Resources/TestJSON/y_structure_lonely_negative_real.json",
-        "Tests/Editor/Resources/TestJSON/y_structure_lonely_negative_real.json.meta",
-        "Tests/Editor/Resources/TestJSON/y_structure_lonely_null.json",
-        "Tests/Editor/Resources/TestJSON/y_structure_lonely_null.json.meta",
-        "Tests/Editor/Resources/TestJSON/y_structure_lonely_string.json",
-        "Tests/Editor/Resources/TestJSON/y_structure_lonely_string.json.meta",
-        "Tests/Editor/Resources/TestJSON/y_structure_lonely_true.json",
-        "Tests/Editor/Resources/TestJSON/y_structure_lonely_true.json.meta",
-        "Tests/Editor/Resources/TestJSON/y_structure_string_empty.json",
-        "Tests/Editor/Resources/TestJSON/y_structure_string_empty.json.meta",
-        "Tests/Editor/Resources/TestJSON/y_structure_trailing_newline.json",
-        "Tests/Editor/Resources/TestJSON/y_structure_trailing_newline.json.meta",
-        "Tests/Editor/Resources/TestJSON/y_structure_true_in_array.json",
-        "Tests/Editor/Resources/TestJSON/y_structure_true_in_array.json.meta",
-        "Tests/Editor/Resources/TestJSON/y_structure_whitespace_array.json",
-        "Tests/Editor/Resources/TestJSON/y_structure_whitespace_array.json.meta",
-        "Tests/Editor/VersionCheckTests.cs",
-        "Tests/Editor/VersionCheckTests.cs.meta",
-        "Tests/Editor/com.chartboost.mediation.tests.editor.asmdef",
-        "Tests/Editor/com.chartboost.mediation.tests.editor.asmdef.meta",
-        "Tests/Runtime.meta",
-        "Tests/Runtime/ConsentTests.cs",
-        "Tests/Runtime/ConsentTests.cs.meta",
-        "Tests/Runtime/com.chartboost.mediation.Tests.Runtime.asmdef",
-        "Tests/Runtime/com.chartboost.mediation.Tests.Runtime.asmdef.meta",
-        "chartboost.csharp.mediation.unity.4.7.0.nupkg.sha512",
-        "chartboost.csharp.mediation.unity.nuspec",
-        "icon.png",
-        "icon.png.meta",
-        "package.json",
-        "package.json.meta"
-      ]
-    },
     "GoogleGson/2.9.1.1": {
       "sha512": "OreKEL2Yx2u8YhRqv0e+j45cEzoe+fyMEzGN+M/vfBDPsIXQcA6lGdHXO07bTrGn6NNwxY67dyIfbyXx3A7cDA==",
       "type": "package",
@@ -21983,6 +21109,18 @@
         "lib/net6.0-android31.0/GoogleGson.aar",
         "lib/net6.0-android31.0/GoogleGson.dll",
         "lib/net6.0-android31.0/GoogleGson.xml"
+      ]
+    },
+    "IronSourceAndroidSDK/7.3.0.1": {
+      "sha512": "SVzEQ6f9mKnMX1Asd+RALJVmTXl0TasvTZClX3YTIWpWQhhRa5XfZhWtMGuSvXSiFHXKUYBil+WZWDunuwWbNg==",
+      "type": "package",
+      "path": "ironsourceandroidsdk/7.3.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ironsourceandroidsdk.7.3.0.1.nupkg.sha512",
+        "ironsourceandroidsdk.nuspec",
+        "lib/monoandroid90/IronSource-Android_v7.3.0.1.dll"
       ]
     },
     "Microsoft.Extensions.Configuration/7.0.0": {
@@ -22309,10 +21447,10 @@
         "runtimes/win10-x86/native/Microsoft.Graphics.Canvas.dll"
       ]
     },
-    "Microsoft.Maui.Graphics/7.0.96": {
-      "sha512": "KlIfq6vs7Oo12w/49pFFwx3OvyVECiBxQf8d1Asxk/1p/OjUjo+0ELL8fyskE2thRSPj9KupAxXI2/CS7ILICA==",
+    "Microsoft.Maui.Graphics/7.0.101": {
+      "sha512": "2+dHQpufctgN66Y+otNnBu9o+ODYlHvc2ufQ185wB2GqhklQeeko4xFsZSj3weDif4Idg0cgAY84qU3cQ0OcTw==",
       "type": "package",
-      "path": "microsoft.maui.graphics/7.0.96",
+      "path": "microsoft.maui.graphics/7.0.101",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -22348,14 +21486,14 @@
         "lib/netstandard2.1/Microsoft.Maui.Graphics.dll",
         "lib/netstandard2.1/Microsoft.Maui.Graphics.pdb",
         "lib/netstandard2.1/Microsoft.Maui.Graphics.xml",
-        "microsoft.maui.graphics.7.0.96.nupkg.sha512",
+        "microsoft.maui.graphics.7.0.101.nupkg.sha512",
         "microsoft.maui.graphics.nuspec"
       ]
     },
-    "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop/7.0.96": {
-      "sha512": "fQxPE4MHq0p7BqpioKNC/YAuDtYsN0ObbPOWp9fV+WIaVjfMYK/c+iIrQbXgthGExWP2y++DRcWDefqstYfhmg==",
+    "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop/7.0.101": {
+      "sha512": "P6uBnryY3b3rpLiKj173UIf4z/dWJqntEabUiPBlJgXIcR4+u8IQg00cADNw+OsSD1yZwSwL+4pEFp5YyiOf/A==",
       "type": "package",
-      "path": "microsoft.maui.graphics.win2d.winui.desktop/7.0.96",
+      "path": "microsoft.maui.graphics.win2d.winui.desktop/7.0.101",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -22365,8 +21503,55 @@
         "lib/net7.0-windows10.0.19041/Microsoft.Maui.Graphics.Win2D.WinUI.Desktop.pdb",
         "lib/net7.0-windows10.0.20348/Microsoft.Maui.Graphics.Win2D.WinUI.Desktop.dll",
         "lib/net7.0-windows10.0.20348/Microsoft.Maui.Graphics.Win2D.WinUI.Desktop.pdb",
-        "microsoft.maui.graphics.win2d.winui.desktop.7.0.96.nupkg.sha512",
+        "microsoft.maui.graphics.win2d.winui.desktop.7.0.101.nupkg.sha512",
         "microsoft.maui.graphics.win2d.winui.desktop.nuspec"
+      ]
+    },
+    "Microsoft.NET.ILLink.Analyzers/7.0.100-1.23211.1": {
+      "sha512": "0GvbEgDGcUQA9KuWcQU1WwYHXt1tBzNr1Nls/M57rM7NA/AndFwCaCEoJpJkmxRY7xLlPDBnmGp8h5+FNqUngg==",
+      "type": "package",
+      "path": "microsoft.net.illink.analyzers/7.0.100-1.23211.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "analyzers/dotnet/cs/ILLink.CodeFixProvider.dll",
+        "analyzers/dotnet/cs/ILLink.RoslynAnalyzer.dll",
+        "build/Microsoft.NET.ILLink.Analyzers.props",
+        "microsoft.net.illink.analyzers.7.0.100-1.23211.1.nupkg.sha512",
+        "microsoft.net.illink.analyzers.nuspec"
+      ]
+    },
+    "Microsoft.NET.ILLink.Tasks/7.0.100-1.23211.1": {
+      "sha512": "tvG8XZYLjT0o3WicCyKBZysVWo1jC9HdCFmNRmddx3WbAz0UCsd0qKZqpiEo99VLA8Re+FzWK51OcRldQPbt2Q==",
+      "type": "package",
+      "path": "microsoft.net.illink.tasks/7.0.100-1.23211.1",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "Sdk/Sdk.props",
+        "build/6.0_suppressions.xml",
+        "build/Microsoft.NET.ILLink.Tasks.props",
+        "build/Microsoft.NET.ILLink.targets",
+        "microsoft.net.illink.tasks.7.0.100-1.23211.1.nupkg.sha512",
+        "microsoft.net.illink.tasks.nuspec",
+        "tools/net472/ILLink.Tasks.dll",
+        "tools/net472/Mono.Cecil.dll",
+        "tools/net472/System.Buffers.dll",
+        "tools/net472/System.Collections.Immutable.dll",
+        "tools/net472/System.Memory.dll",
+        "tools/net472/System.Numerics.Vectors.dll",
+        "tools/net472/System.Reflection.Metadata.dll",
+        "tools/net472/System.Runtime.CompilerServices.Unsafe.dll",
+        "tools/net7.0/ILLink.Tasks.deps.json",
+        "tools/net7.0/ILLink.Tasks.dll",
+        "tools/net7.0/Mono.Cecil.Pdb.dll",
+        "tools/net7.0/Mono.Cecil.dll",
+        "tools/net7.0/illink.deps.json",
+        "tools/net7.0/illink.dll",
+        "tools/net7.0/illink.runtimeconfig.json"
       ]
     },
     "Microsoft.Windows.SDK.BuildTools/10.0.22621.756": {
@@ -25045,10 +24230,10 @@
         "xamarin.google.guava.listenablefuture.nuspec"
       ]
     },
-    "Xamarin.Jetbrains.Annotations/23.0.0.5": {
-      "sha512": "DYXvp8jMk4iQbH0ApB2mMUuCUtESbGRdaStFxkRGKYyFA73XrdxG4K8rFHT+a92LRe/fBZhpvQtt+s2R5HmIDQ==",
+    "Xamarin.Jetbrains.Annotations/24.0.1.5": {
+      "sha512": "GUqjmOCfZGBnHa6VlllSxAFvL70dR2YfLMnp/SBUPSiEkRASuBdo9nN3KFQpk+RqXaPjMtLIGg+Fbg3VzTjwxg==",
       "type": "package",
-      "path": "xamarin.jetbrains.annotations/23.0.0.5",
+      "path": "xamarin.jetbrains.annotations/24.0.1.5",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -25058,19 +24243,20 @@
         "build/net6.0-android31.0/Xamarin.Jetbrains.Annotations.targets",
         "buildTransitive/monoandroid12.0/Xamarin.Jetbrains.Annotations.targets",
         "buildTransitive/net6.0-android31.0/Xamarin.Jetbrains.Annotations.targets",
-        "jar/org.jetbrains.annotations-23.0.0.jar",
+        "jar/org.jetbrains.annotations-24.0.1.jar",
         "lib/monoandroid12.0/Xamarin.Jetbrains.Annotations.dll",
         "lib/monoandroid12.0/Xamarin.Jetbrains.Annotations.xml",
         "lib/net6.0-android31.0/Xamarin.Jetbrains.Annotations.dll",
         "lib/net6.0-android31.0/Xamarin.Jetbrains.Annotations.xml",
-        "xamarin.jetbrains.annotations.23.0.0.5.nupkg.sha512",
+        "readme.md",
+        "xamarin.jetbrains.annotations.24.0.1.5.nupkg.sha512",
         "xamarin.jetbrains.annotations.nuspec"
       ]
     },
-    "Xamarin.Kotlin.StdLib/1.7.20.1": {
-      "sha512": "rXf7f31keX62tzFrfaZ5qC0qLiGRqk3qFBpocL87U8+DwJONOQ8/gc6MpmDQnrcJbAgJn7tudqKubPFVIJhaHw==",
+    "Xamarin.Kotlin.StdLib/1.9.20": {
+      "sha512": "bj2lmgBdAy2Mh1a6m1egUPHk4iEZYMwasopgM1O22XY8AwzKEfyC3A725/XjkfKba39lRwqOtvsOLWm7ldUhUw==",
       "type": "package",
-      "path": "xamarin.kotlin.stdlib/1.7.20.1",
+      "path": "xamarin.kotlin.stdlib/1.9.20",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -25080,12 +24266,13 @@
         "build/net6.0-android31.0/Xamarin.Kotlin.StdLib.targets",
         "buildTransitive/monoandroid12.0/Xamarin.Kotlin.StdLib.targets",
         "buildTransitive/net6.0-android31.0/Xamarin.Kotlin.StdLib.targets",
-        "jar/org.jetbrains.kotlin.kotlin-stdlib-1.7.20.jar",
+        "jar/org.jetbrains.kotlin.kotlin-stdlib-1.9.20.jar",
         "lib/monoandroid12.0/Xamarin.Kotlin.StdLib.dll",
         "lib/monoandroid12.0/Xamarin.Kotlin.StdLib.xml",
         "lib/net6.0-android31.0/Xamarin.Kotlin.StdLib.dll",
         "lib/net6.0-android31.0/Xamarin.Kotlin.StdLib.xml",
-        "xamarin.kotlin.stdlib.1.7.20.1.nupkg.sha512",
+        "readme.md",
+        "xamarin.kotlin.stdlib.1.9.20.nupkg.sha512",
         "xamarin.kotlin.stdlib.nuspec"
       ]
     },
@@ -25202,12 +24389,14 @@
   },
   "projectFileDependencyGroups": {
     "net7.0-android33.0": [
-      "Chartboost.CSharp.Mediation.Unity >= 4.7.0",
+      "IronSourceAndroidSDK >= 7.3.0.1",
       "Microsoft.Extensions.Configuration >= 7.0.0",
       "Microsoft.Extensions.DependencyInjection >= 7.0.0",
       "Microsoft.Extensions.Logging >= 7.0.0",
       "Microsoft.Extensions.Logging.Debug >= 7.0.0",
-      "Microsoft.Maui.Graphics >= 7.0.96",
+      "Microsoft.Maui.Graphics >= 7.0.101",
+      "Microsoft.NET.ILLink.Analyzers >= 7.0.100-1.23211.1",
+      "Microsoft.NET.ILLink.Tasks >= 7.0.100-1.23211.1",
       "Xamarin.Android.Glide >= 4.13.2.2",
       "Xamarin.AndroidX.Browser >= 1.4.0.3",
       "Xamarin.AndroidX.Legacy.Support.V4 >= 1.0.0.15",
@@ -25218,32 +24407,34 @@
       "Xamarin.AndroidX.Navigation.UI >= 2.5.2.1",
       "Xamarin.AndroidX.Security.SecurityCrypto >= 1.1.0-alpha03",
       "Xamarin.Google.Android.Material >= 1.7.0",
-      "Xamarin.Google.Crypto.Tink.Android >= 1.7.0.1"
+      "Xamarin.Google.Crypto.Tink.Android >= 1.7.0.1",
+      "Xamarin.Kotlin.StdLib >= 1.9.20"
     ],
     "net7.0-ios16.1": [
-      "Chartboost.CSharp.Mediation.Unity >= 4.7.0",
       "Microsoft.Extensions.Configuration >= 7.0.0",
       "Microsoft.Extensions.DependencyInjection >= 7.0.0",
       "Microsoft.Extensions.Logging >= 7.0.0",
       "Microsoft.Extensions.Logging.Debug >= 7.0.0",
-      "Microsoft.Maui.Graphics >= 7.0.96"
+      "Microsoft.Maui.Graphics >= 7.0.101",
+      "Microsoft.NET.ILLink.Analyzers >= 7.0.100-1.23211.1",
+      "Microsoft.NET.ILLink.Tasks >= 7.0.100-1.23211.1"
     ],
     "net7.0-maccatalyst16.1": [
-      "Chartboost.CSharp.Mediation.Unity >= 4.7.0",
       "Microsoft.Extensions.Configuration >= 7.0.0",
       "Microsoft.Extensions.DependencyInjection >= 7.0.0",
       "Microsoft.Extensions.Logging >= 7.0.0",
       "Microsoft.Extensions.Logging.Debug >= 7.0.0",
-      "Microsoft.Maui.Graphics >= 7.0.96"
+      "Microsoft.Maui.Graphics >= 7.0.101",
+      "Microsoft.NET.ILLink.Analyzers >= 7.0.100-1.23211.1",
+      "Microsoft.NET.ILLink.Tasks >= 7.0.100-1.23211.1"
     ],
     "net7.0-windows10.0.19041": [
-      "Chartboost.CSharp.Mediation.Unity >= 4.7.0",
       "Microsoft.Extensions.Configuration >= 7.0.0",
       "Microsoft.Extensions.DependencyInjection >= 7.0.0",
       "Microsoft.Extensions.Logging >= 7.0.0",
       "Microsoft.Extensions.Logging.Debug >= 7.0.0",
-      "Microsoft.Maui.Graphics >= 7.0.96",
-      "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop >= 7.0.96",
+      "Microsoft.Maui.Graphics >= 7.0.101",
+      "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop >= 7.0.101",
       "Microsoft.WindowsAppSDK >= 1.2.221209.1"
     ]
   },
@@ -25254,11 +24445,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\21khz\\Projects\\Notes\\Notes\\Notes.csproj",
+      "projectUniqueName": "C:\\Users\\21khz\\source\\repos\\Notes\\Notes\\Notes.csproj",
       "projectName": "Notes",
-      "projectPath": "C:\\Users\\21khz\\Projects\\Notes\\Notes\\Notes.csproj",
+      "projectPath": "C:\\Users\\21khz\\source\\repos\\Notes\\Notes\\Notes.csproj",
       "packagesPath": "C:\\Users\\21khz\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\21khz\\Projects\\Notes\\Notes\\obj\\",
+      "outputPath": "C:\\Users\\21khz\\source\\repos\\Notes\\Notes\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [
@@ -25308,9 +24499,9 @@
       "net7.0-android33.0": {
         "targetAlias": "net7.0-android",
         "dependencies": {
-          "Chartboost.CSharp.Mediation.Unity": {
+          "IronSourceAndroidSDK": {
             "target": "Package",
-            "version": "[4.7.0, )"
+            "version": "[7.3.0.1, )"
           },
           "Microsoft.Extensions.Configuration": {
             "target": "Package",
@@ -25333,7 +24524,19 @@
           },
           "Microsoft.Maui.Graphics": {
             "target": "Package",
-            "version": "[7.0.96, )",
+            "version": "[7.0.101, )",
+            "autoReferenced": true
+          },
+          "Microsoft.NET.ILLink.Analyzers": {
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[7.0.100-1.23211.1, )",
+            "autoReferenced": true
+          },
+          "Microsoft.NET.ILLink.Tasks": {
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[7.0.100-1.23211.1, )",
             "autoReferenced": true
           },
           "Xamarin.Android.Glide": {
@@ -25390,6 +24593,10 @@
             "target": "Package",
             "version": "[1.7.0.1, )",
             "autoReferenced": true
+          },
+          "Xamarin.Kotlin.StdLib": {
+            "target": "Package",
+            "version": "[1.9.20, )"
           }
         },
         "imports": [
@@ -25403,6 +24610,52 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.Android.Ref.33",
+            "version": "[33.0.95, 33.0.95]"
+          },
+          {
+            "name": "Microsoft.Android.Runtime.33.android-arm",
+            "version": "[33.0.95, 33.0.95]"
+          },
+          {
+            "name": "Microsoft.Android.Runtime.33.android-arm64",
+            "version": "[33.0.95, 33.0.95]"
+          },
+          {
+            "name": "Microsoft.Android.Runtime.33.android-x64",
+            "version": "[33.0.95, 33.0.95]"
+          },
+          {
+            "name": "Microsoft.Android.Runtime.33.android-x86",
+            "version": "[33.0.95, 33.0.95]"
+          },
+          {
+            "name": "Microsoft.Maui.Controls.Ref.android",
+            "version": "[7.0.101, 7.0.101]"
+          },
+          {
+            "name": "Microsoft.Maui.Controls.Runtime.android",
+            "version": "[7.0.101, 7.0.101]"
+          },
+          {
+            "name": "Microsoft.Maui.Core.Ref.android",
+            "version": "[7.0.101, 7.0.101]"
+          },
+          {
+            "name": "Microsoft.Maui.Core.Runtime.android",
+            "version": "[7.0.101, 7.0.101]"
+          },
+          {
+            "name": "Microsoft.Maui.Essentials.Ref.android",
+            "version": "[7.0.101, 7.0.101]"
+          },
+          {
+            "name": "Microsoft.Maui.Essentials.Runtime.android",
+            "version": "[7.0.101, 7.0.101]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.Android": {
             "privateAssets": "all"
@@ -25420,15 +24673,11 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
       },
       "net7.0-ios16.1": {
         "targetAlias": "net7.0-ios",
         "dependencies": {
-          "Chartboost.CSharp.Mediation.Unity": {
-            "target": "Package",
-            "version": "[4.7.0, )"
-          },
           "Microsoft.Extensions.Configuration": {
             "target": "Package",
             "version": "[7.0.0, )",
@@ -25450,7 +24699,19 @@
           },
           "Microsoft.Maui.Graphics": {
             "target": "Package",
-            "version": "[7.0.96, )",
+            "version": "[7.0.101, )",
+            "autoReferenced": true
+          },
+          "Microsoft.NET.ILLink.Analyzers": {
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[7.0.100-1.23211.1, )",
+            "autoReferenced": true
+          },
+          "Microsoft.NET.ILLink.Tasks": {
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[7.0.100-1.23211.1, )",
             "autoReferenced": true
           }
         },
@@ -25465,6 +24726,40 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.iOS.Ref",
+            "version": "[16.4.7125, 16.4.7125]"
+          },
+          {
+            "name": "Microsoft.iOS.Runtime.iossimulator-x64",
+            "version": "[16.4.7125, 16.4.7125]"
+          },
+          {
+            "name": "Microsoft.Maui.Controls.Ref.ios",
+            "version": "[7.0.101, 7.0.101]"
+          },
+          {
+            "name": "Microsoft.Maui.Controls.Runtime.ios",
+            "version": "[7.0.101, 7.0.101]"
+          },
+          {
+            "name": "Microsoft.Maui.Core.Ref.ios",
+            "version": "[7.0.101, 7.0.101]"
+          },
+          {
+            "name": "Microsoft.Maui.Core.Runtime.ios",
+            "version": "[7.0.101, 7.0.101]"
+          },
+          {
+            "name": "Microsoft.Maui.Essentials.Ref.ios",
+            "version": "[7.0.101, 7.0.101]"
+          },
+          {
+            "name": "Microsoft.Maui.Essentials.Runtime.ios",
+            "version": "[7.0.101, 7.0.101]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.iOS": {
             "privateAssets": "all"
@@ -25482,15 +24777,11 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
       },
       "net7.0-maccatalyst16.1": {
         "targetAlias": "net7.0-maccatalyst",
         "dependencies": {
-          "Chartboost.CSharp.Mediation.Unity": {
-            "target": "Package",
-            "version": "[4.7.0, )"
-          },
           "Microsoft.Extensions.Configuration": {
             "target": "Package",
             "version": "[7.0.0, )",
@@ -25512,7 +24803,19 @@
           },
           "Microsoft.Maui.Graphics": {
             "target": "Package",
-            "version": "[7.0.96, )",
+            "version": "[7.0.101, )",
+            "autoReferenced": true
+          },
+          "Microsoft.NET.ILLink.Analyzers": {
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[7.0.100-1.23211.1, )",
+            "autoReferenced": true
+          },
+          "Microsoft.NET.ILLink.Tasks": {
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[7.0.100-1.23211.1, )",
             "autoReferenced": true
           }
         },
@@ -25528,6 +24831,40 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.MacCatalyst.Ref",
+            "version": "[16.4.7125, 16.4.7125]"
+          },
+          {
+            "name": "Microsoft.MacCatalyst.Runtime.maccatalyst-x64",
+            "version": "[16.4.7125, 16.4.7125]"
+          },
+          {
+            "name": "Microsoft.Maui.Controls.Ref.maccatalyst",
+            "version": "[7.0.101, 7.0.101]"
+          },
+          {
+            "name": "Microsoft.Maui.Controls.Runtime.maccatalyst",
+            "version": "[7.0.101, 7.0.101]"
+          },
+          {
+            "name": "Microsoft.Maui.Core.Ref.maccatalyst",
+            "version": "[7.0.101, 7.0.101]"
+          },
+          {
+            "name": "Microsoft.Maui.Core.Runtime.maccatalyst",
+            "version": "[7.0.101, 7.0.101]"
+          },
+          {
+            "name": "Microsoft.Maui.Essentials.Ref.maccatalyst",
+            "version": "[7.0.101, 7.0.101]"
+          },
+          {
+            "name": "Microsoft.Maui.Essentials.Runtime.maccatalyst",
+            "version": "[7.0.101, 7.0.101]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.MacCatalyst": {
             "privateAssets": "all"
@@ -25545,15 +24882,11 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
       },
       "net7.0-windows10.0.19041": {
         "targetAlias": "net7.0-windows10.0.19041.0",
         "dependencies": {
-          "Chartboost.CSharp.Mediation.Unity": {
-            "target": "Package",
-            "version": "[4.7.0, )"
-          },
           "Microsoft.Extensions.Configuration": {
             "target": "Package",
             "version": "[7.0.0, )",
@@ -25575,12 +24908,12 @@
           },
           "Microsoft.Maui.Graphics": {
             "target": "Package",
-            "version": "[7.0.96, )",
+            "version": "[7.0.101, )",
             "autoReferenced": true
           },
           "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop": {
             "target": "Package",
-            "version": "[7.0.96, )",
+            "version": "[7.0.101, )",
             "autoReferenced": true
           },
           "Microsoft.WindowsAppSDK": {
@@ -25603,19 +24936,43 @@
         "downloadDependencies": [
           {
             "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
-            "version": "[7.0.13, 7.0.13]"
+            "version": "[7.0.14, 7.0.14]"
+          },
+          {
+            "name": "Microsoft.Maui.Controls.Ref.win",
+            "version": "[7.0.101, 7.0.101]"
+          },
+          {
+            "name": "Microsoft.Maui.Controls.Runtime.win",
+            "version": "[7.0.101, 7.0.101]"
+          },
+          {
+            "name": "Microsoft.Maui.Core.Ref.win",
+            "version": "[7.0.101, 7.0.101]"
+          },
+          {
+            "name": "Microsoft.Maui.Core.Runtime.win",
+            "version": "[7.0.101, 7.0.101]"
+          },
+          {
+            "name": "Microsoft.Maui.Essentials.Ref.win",
+            "version": "[7.0.101, 7.0.101]"
+          },
+          {
+            "name": "Microsoft.Maui.Essentials.Runtime.win",
+            "version": "[7.0.101, 7.0.101]"
           },
           {
             "name": "Microsoft.NETCore.App.Runtime.win-x64",
-            "version": "[7.0.13, 7.0.13]"
+            "version": "[7.0.14, 7.0.14]"
           },
           {
             "name": "Microsoft.Windows.SDK.NET.Ref",
-            "version": "[10.0.19041.29, 10.0.19041.29]"
+            "version": "[10.0.19041.31, 10.0.19041.31]"
           },
           {
             "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
-            "version": "[7.0.13, 7.0.13]"
+            "version": "[7.0.14, 7.0.14]"
           }
         ],
         "frameworkReferences": {
@@ -25635,7 +24992,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
       }
     },
     "runtimes": {

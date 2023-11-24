@@ -1,3 +1,9 @@
+using Com.Ironsource.Mediationsdk;
+using Com.Ironsource.Mediationsdk.Sdk;
+using Com.Ironsource.Mediationsdk.Model;
+using Com.Ironsource.Mediationsdk.Logger;
+using Com.Ironsource.Mediationsdk.Config;
+using Com.Ironsource.Mediationsdk.Utils;
 namespace Notes.Views;
 
 public partial class AllNotesPage : ContentPage
